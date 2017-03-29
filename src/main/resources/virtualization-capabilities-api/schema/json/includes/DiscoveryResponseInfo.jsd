@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "properties": {
+    "clusters": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "datacenters": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "datastores": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "dvswitches": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "hostNetworks": {
+      "items":{
+         "$ref":"NetworkConfig.jsd"
+      },
+      "type": "array"
+    },
+    "hosts": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "vcenter": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "datastores",
+    "dvswitches",
+    "hosts",
+    "clusters",
+    "datacenters",
+    "vcenter",
+    "hostNetworks"
+  ],
+  "type": "object"
+}

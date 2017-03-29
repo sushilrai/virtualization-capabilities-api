@@ -1,0 +1,22 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Response to an endpoint query request.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter-adapter.discoveryRequestInfo",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"includes/MessageProperties.jsd"
+       },
+       "discoveryRequestInfo":{
+          "$ref":"includes/DiscoveryRequestInfo.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "discoveryRequestInfo"
+    ]
+}
+
