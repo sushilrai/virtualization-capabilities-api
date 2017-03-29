@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "properties": {
+    "hostname": {
+      "type": "string"
+    },
+    "management_gateway": {
+      "type": "string"
+    },
+    "management_ip": {
+      "type": "string"
+    },
+    "management_subnet_mask": {
+      "type": "string"
+    },
+    "management_vlan_id": {
+      "type": "string"
+    },
+    "primary_dns": {
+      "type": "string"
+    },
+    "secondary_dns": {
+      "type": "string"
+    },
+    "sio_data1_ip": {
+      "type": "string"
+    },
+    "sio_data1_subnet_mask": {
+      "type": "string"
+    },
+    "sio_data2_ip": {
+      "type": "string"
+    },
+    "sio_data2_subnet_mask": {
+      "type": "string"
+    },
+    "vmotion_ip": {
+      "type": "string"
+    },
+    "vmotion_subnet_mask": {
+      "type": "string"
+    },
+    "vmotion_vlan_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "vmotion_subnet_mask",
+    "sio_data2_subnet_mask",
+    "vmotion_vlan_id",
+    "sio_data1_subnet_mask",
+    "primary_dns",
+    "hostname",
+    "management_subnet_mask",
+    "management_ip",
+    "management_gateway",
+    "sio_data1_ip",
+    "secondary_dns",
+    "sio_data2_ip",
+    "vmotion_ip",
+    "management_vlan_id"
+  ],
+  "type": "object"
+}

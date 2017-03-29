@@ -1,0 +1,24 @@
+{
+  "configuration":{
+    "host":"localhost",
+    "exchange":"exchange.dell.cpsd.endpoint.registration.request",
+    "routingKey":"dell.cpsd.endpoint.registration.request"
+  },
+  "properties":{
+    "headers":{
+      "__TypeId__":"com.dell.cpsd.endpoint-registry.endpoint.instances.requested"
+    },
+    "contentType":"application/json"
+  },
+  "body": {
+    "messageProperties": {
+      "timestamp": "2017-01-10T15:17:21.573+0000",
+      "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72",
+    },
+    "registrationInfo": {
+      "address": "0.0.0.0",
+      "username": "user",
+      "password": "1234"
+    }
+  }
+}

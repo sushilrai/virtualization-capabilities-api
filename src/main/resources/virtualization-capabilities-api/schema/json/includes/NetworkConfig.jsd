@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "properties": {
+    "hostname": {
+      "type": "string"
+    },
+    "physical_nics": {
+      "items":{
+         "$ref":"PhysicalNicInfo.jsd"
+      },
+      "type": "array"
+    },
+    "portgroups": {
+      "items":{
+         "$ref":"PortGroupInfo.jsd"
+      },
+      "type": "array"
+    },
+    "virtual_nics": {
+      "items":{
+         "$ref":"VirtualNicInfo.jsd"
+      },
+      "type": "array"
+    },
+    "vswitches": {
+      "items":{
+         "$ref":"VirtualSwitchInfo.jsd"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "vswitches",
+    "hostname",
+    "virtual_nics",
+    "physical_nics",
+    "portgroups"
+  ],
+  "type": "object"
+}

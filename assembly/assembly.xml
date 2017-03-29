@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <id>schemas</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <outputDirectory>virtualization-capabilities-api/schema/example</outputDirectory>
+            <directory>src/main/resources/virtualization-capabilities-api/schema/example</directory>
+        </fileSet>
+        <fileSet>
+            <outputDirectory>virtualization-capabilities-api/schema/json</outputDirectory>
+            <directory>src/main/resources/virtualization-capabilities-api/schema/json</directory>
+        </fileSet>
+    </fileSets>
+</assembly>
