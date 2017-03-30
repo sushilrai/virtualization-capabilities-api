@@ -44,6 +44,13 @@
             <artifactId>org.everit.json.schema</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.dell.cpsd.common.messaging</groupId>
+            <artifactId>common-testing</artifactId>
+            <version>1.1-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- Test Dependencies -->
         <dependency>
             <groupId>junit</groupId>
@@ -93,7 +100,8 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <sourceDirectory>${project.basedir}/src/main/resources/virtualization-capabilities-api/schema/json</sourceDirectory>
+                            <sourceDirectory>${project.basedir}/src/main/resources/virtualization-capabilities-api/schema/json
+                            </sourceDirectory>
                             <targetPackage>com.dell.cpsd.endpoint.registration.api</targetPackage>
                             <outputDirectory>${project.build.directory}/generated-sources/endpoint-registration-api</outputDirectory>
                             <removeOldOutput>true</removeOldOutput>
@@ -138,22 +146,22 @@
                     <source>${java-version}</source>
                     <target>${java-version}</target>
                 </configuration>
-	</plugin>
-	<plugin>
-		<groupId>org.jacoco</groupId>
-		<artifactId>jacoco-maven-plugin</artifactId>
-		<version>${jacoco-maven-plugin.version}</version>
-	</plugin>
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-surefire-plugin</artifactId>
-		<version>${maven-surefire-plugin.version}</version>
-	</plugin>
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-failsafe-plugin</artifactId>
-		<version>${maven-failsafe-plugin.version}</version>
-	</plugin>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${jacoco-maven-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>${maven-failsafe-plugin.version}</version>
+            </plugin>
 
         </plugins>
     </build>
