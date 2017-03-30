@@ -4,9 +4,9 @@
     "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
   },
   "portGroupInfo": {
-    "id": 0,
+    "key": "",
     "name": "",
-    "price": 0,
-    "tags": []
+    "vlanId": 0,
+    "vswitchName": ""
   }
 }

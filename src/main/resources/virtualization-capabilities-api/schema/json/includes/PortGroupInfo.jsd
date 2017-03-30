@@ -1,27 +1,24 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "properties": {
-    "id": {
-      "type": "integer"
+    "key": {
+      "type": "string"
     },
     "name": {
       "type": "string"
     },
-    "price": {
-      "type": "number"
+    "vlanId": {
+      "type": "integer"
     },
-    "tags": {
-      "items": {
-        "type": "string"
-      },
-      "type": "array"
+    "vswitchName": {
+      "type": "string"
     }
   },
   "required": [
-    "price",
-    "tags",
-    "id",
-    "name"
+    "key",
+    "name",
+    "vlanId",
+    "vswitchName"
   ],
   "type": "object"
 }
