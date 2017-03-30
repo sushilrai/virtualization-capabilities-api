@@ -10,16 +10,18 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                withMaven(){
-                    sh "mvn clean test"
-                }
+                mavenBuild(
+                    pom: 'pom.xml',
+                    goals: 'clean test'
+                )
             }
         }
         stage('Deploy') {
             steps {
-                withMaven(){
-                    sh "mvn deploy"
-                }
+                mavenBuild(
+                    pom: 'pom.xml',
+                    goals: 'deploy'
+                )
             }
         }
     }
