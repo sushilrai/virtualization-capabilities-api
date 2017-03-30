@@ -1,10 +1,3 @@
-properties([
-    pipelineTriggers([
-        upstream(threshold: hudson.model.Result.SUCCESS, upstreamProjects: 'endpoint-registration-api-master'),
-        upstream(threshold: hudson.model.Result.SUCCESS, upstreamProjects: 'hdp-capability-registry-client-master'),
-        upstream(threshold: hudson.model.Result.SUCCESS, upstreamProjects: 'symphony-root-parent-master')
-  ])
-])
 pipeline {
     agent {
         label 'maven-builder'
