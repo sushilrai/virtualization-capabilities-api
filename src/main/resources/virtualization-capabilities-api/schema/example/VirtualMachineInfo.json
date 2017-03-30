@@ -13,10 +13,10 @@
         "label": "",
         "wakeOnLanEnabled": true,
         "network": {
-          "id": 0,
+          "key": "",
           "name": "",
-          "price": 0,
-          "tags": []
+          "vlanId": 0,
+          "vswitchName": ""
         }
       }
     ]

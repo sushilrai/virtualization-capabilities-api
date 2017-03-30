@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "code": {
+            "type": "string",
+            "title": "Error code",
+            "description": "The error code provided by the service."
+        },
+        "message": {
+            "type": "string",
+            "title": "Error message",
+            "description": "The error message provided by the service."
+        },
+        "correlationId": {
+            "type": "string",
+            "title": "Correlation id",
+            "description": "The correlation id of the message which generated error."
+        },
+        "timestamp": {
+            "javaType": "java.util.Date",
+            "title": "The date",
+            "description": "The time the error message was generated."
+        }
+    },
+    "required": [
+        "code",
+        "message",
+        "correlationId",
+        "timestamp"
+    ]
+}
