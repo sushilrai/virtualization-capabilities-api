@@ -10,18 +10,17 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                mavenBuild(
-                    pom: 'pom.xml',
-                    goals: 'clean test'
-                )
+                sh "mvn clean test"
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/**/*.xml'
+                }
             }
         }
         stage('Deploy') {
             steps {
-                mavenBuild(
-                    pom: 'pom.xml',
-                    goals: 'deploy'
-                )
+                sh "mvn deploy"
             }
         }
     }
