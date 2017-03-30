@@ -5,6 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>virtualization-capabilities-api</artifactId>
+    <groupId>com.dell.cpsd.vcenter.capabilities.api</groupId>
 
     <version>0.1-SNAPSHOT</version>
 
@@ -94,7 +95,7 @@
                 </dependencies>
                 <executions>
                     <execution>
-                        <id>generate-json-model-endpoint-registration-api</id>
+                        <id>generate-json-model-virtualization-capabilities-api</id>
                         <phase>generate-resources</phase>
                         <goals>
                             <goal>generate</goal>
@@ -102,8 +103,8 @@
                         <configuration>
                             <sourceDirectory>${project.basedir}/src/main/resources/virtualization-capabilities-api/schema/json
                             </sourceDirectory>
-                            <targetPackage>com.dell.cpsd.endpoint.registration.api</targetPackage>
-                            <outputDirectory>${project.build.directory}/generated-sources/endpoint-registration-api</outputDirectory>
+                            <targetPackage>com.dell.cpsd.vcenter.capabilities.api</targetPackage>
+                            <outputDirectory>${project.build.directory}/generated-sources/virtualization-capabilities-api</outputDirectory>
                             <removeOldOutput>true</removeOldOutput>
                             <useLongIntegers>true</useLongIntegers>
                             <includeConstructors>true</includeConstructors>
