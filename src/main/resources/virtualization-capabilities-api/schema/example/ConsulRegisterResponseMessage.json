@@ -1,6 +1,6 @@
 {
-  "messageProperties":{
-    "timestamp":"2017-01-10T15:17:21.573+0000",
-    "correlationId":"90015098-3cd2-3fb0-9696-3f7d28e17f72"
+  "messageProperties": {
+    "timestamp": "2010-01-01T12:00:00Z",
+    "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
   }
 }
