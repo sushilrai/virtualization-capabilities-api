@@ -2,16 +2,13 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "properties": {
     "key": {
-      "type": "string"
-    },
-    "label": {
-      "type": "string"
+      "type": "integer"
     },
     "mac": {
       "type": "string"
     },
     "network": {
-      "$ref":"PortGroupInfo.jsd"
+      "$ref":"VMBackingNetwork.jsd"
     },
     "wakeOnLanEnabled": {
       "type": "boolean"
@@ -21,8 +18,7 @@
     "mac",
     "wakeOnLanEnabled",
     "network",
-    "key",
-    "label"
+    "key"
   ],
   "type": "object"
 }

@@ -8,15 +8,13 @@
     "id": "",
     "networks": [
       {
-        "key": "",
+        "key": 0,
         "mac": "",
-        "label": "",
         "wakeOnLanEnabled": true,
         "network": {
-          "key": "",
+          "id": "",
           "name": "",
-          "vlanId": 0,
-          "vswitchName": ""
+          "type": ""
         }
       }
     ]

@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/root.json",
+  "properties": {
+    "field": {
+      "enum": [
+        "ip",
+        "name",
+        "id"
+      ],
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "string",
+        "regex"
+      ],
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "field",
+    "type",
+    "value"
+  ],
+  "type": "object"
+}
