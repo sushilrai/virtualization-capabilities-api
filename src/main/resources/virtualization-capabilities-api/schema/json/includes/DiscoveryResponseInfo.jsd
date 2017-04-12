@@ -33,7 +33,7 @@
     },
     "hosts": {
       "items": {
-        "type": "string"
+        "$ref": "HostIdentifier.jsd"
       },
       "type": "array"
     },
