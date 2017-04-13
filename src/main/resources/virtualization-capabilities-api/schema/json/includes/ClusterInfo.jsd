@@ -1,21 +1,17 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "javaName":"VMBackingNetwork",
+  "javaName":"ClusterInfo",
   "properties": {
-    "id": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     },
-    "type": {
-      "type": "string"
+    "numberOfHosts": {
+      "type": "integer"
     }
   },
   "required": [
-    "id",
     "name",
-    "type"
+    "numberOfHosts"
   ],
   "type": "object"
 }

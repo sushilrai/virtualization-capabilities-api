@@ -1,21 +1,22 @@
 {
     "$schema":"http://json-schema.org/draft-04/schema#",
     "type":"object",
-    "description":"Response to vcenter discovery request message.",
+    "description":"Discovery cluster info request message.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.discoveryResponseInfo",
+       "message":"com.dell.cpsd.vcenter-adapter.discoverClusterRequestInfo",
        "version":"1.0"
     },
     "properties":{
        "messageProperties":{
           "$ref":"includes/MessageProperties.jsd"
        },
-       "discoveryResponseInfo":{
-          "$ref":"includes/DiscoveryResponseInfo.jsd"
+       "discoveryRequestInfo":{
+          "$ref":"includes/DiscoveryRequestInfo.jsd"
        }
     },
     "required":[
        "messageProperties",
-       "discoveryResponseInfo"
+       "discoveryRequestInfo"
     ]
 }
+
