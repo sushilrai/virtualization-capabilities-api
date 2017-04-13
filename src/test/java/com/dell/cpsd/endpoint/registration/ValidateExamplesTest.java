@@ -1,5 +1,6 @@
 /**
  * Copyright &copy; 2017 Dell Inc. or its subsidiaries.  All Rights Reserved.
+ * Dell EMC Confidential/Proprietary Information
  */
 
 package com.dell.cpsd.endpoint.registration;
@@ -14,6 +15,7 @@ import static org.junit.Assert.assertNull;
  * conforms to the API.
  * <p>
  * Copyright &copy; 2017 Dell Inc. or its subsidiaries.  All Rights Reserved.
+ * Dell EMC Confidential/Proprietary Information
  * </p>
  *
  * @version 1.0
