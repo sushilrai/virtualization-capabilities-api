@@ -6,7 +6,7 @@
       "type": "string"
     },
     "numberOfHosts": {
-      "type": "integer"
+      "type": "long"
     }
   },
   "required": [
