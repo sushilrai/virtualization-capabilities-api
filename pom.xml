@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>virtualization-capabilities-api</artifactId>
-    <groupId>com.dell.cpsd.vcenter.capabilities.api</groupId>
+    <groupId>com.dell.cpsd.virtualization.capabilities.api</groupId>
 
     <version>0.1-SNAPSHOT</version>
 

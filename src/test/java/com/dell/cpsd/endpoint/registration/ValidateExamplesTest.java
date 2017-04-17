@@ -105,5 +105,21 @@ public class ValidateExamplesTest
         String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
         assertNull(errors, errors);
     }
+
+
+    @Test
+    public void HostMaintenanceModeTest() throws Exception
+    {
+        String jsdName = "HostMaintenanceModeRequestMessage";
+        String jsonName = "HostMaintenanceModeRequestMessage";
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        assertNull(errors, errors);
+
+
+        jsdName = "HostMaintenanceModeResponseMessage";
+        jsonName = "HostMaintenanceModeResponseMessage";
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        assertNull(errors, errors);
+    }
 }
 

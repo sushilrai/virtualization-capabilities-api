@@ -1,0 +1,22 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Request to put host in maintenance mode.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter-adapter.maintenanceModeRequest",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"includes/MessageProperties.jsd"
+       },
+       "maintenanceModeRequest":{
+          "$ref":"includes/MaintenanceModeRequest.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "maintenanceModeRequest"
+    ]
+}
+
