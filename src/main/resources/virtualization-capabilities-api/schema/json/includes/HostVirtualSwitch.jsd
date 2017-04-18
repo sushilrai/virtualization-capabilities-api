@@ -1,0 +1,16 @@
+{
+  "type" : "object",
+  "id" : "HostVirtualSwitch.jsd",
+  "properties" : {
+    "key" : {
+      "type" : "string"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "vswitchSpec" : {
+      "type" : "object",
+      "$ref" : "HostVirtualSwitchSpec.jsd"
+    }
+  }
+}

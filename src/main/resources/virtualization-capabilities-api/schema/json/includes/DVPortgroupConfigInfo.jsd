@@ -1,0 +1,13 @@
+{
+  "type" : "object",
+  "id" : "DVPortgroupConfigInfo.jsd",
+  "properties" : {
+    "portSetting" : {
+      "type" : "object",
+      "$ref" : "DVPortSetting.jsd"
+    },
+    "dvSwitchId" : {
+      "type" : "string"
+    }
+  }
+}

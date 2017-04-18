@@ -1,0 +1,18 @@
+{
+  "type" : "object",
+  "id" : "HostIpRouteConfig.jsd",
+  "properties" : {
+    "defaultGateway" : {
+      "type" : "string"
+    },
+    "defaultGatewayDevice" : {
+      "type" : "string"
+    },
+    "ipV6DefaultGateway" : {
+      "type" : "string"
+    },
+    "ipV6DefaultGatewayDevice" : {
+      "type" : "string"
+    }
+  }
+}

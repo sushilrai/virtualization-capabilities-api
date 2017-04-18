@@ -11,7 +11,7 @@
           "$ref":"includes/MessageProperties.jsd"
        },
        "discoveryResponseInfo":{
-          "$ref":"includes/DiscoveryResponseInfo.jsd"
+          "$ref":"includes/Datacenter.jsd"
        }
     },
     "required":[

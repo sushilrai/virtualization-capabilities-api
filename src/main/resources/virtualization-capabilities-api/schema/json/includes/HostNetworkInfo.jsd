@@ -1,0 +1,35 @@
+{
+  "type" : "object",
+  "id" : "HostNetworkInfo.jsd",
+  "properties" : {
+    "dnsConfig" : {
+      "type" : "object",
+      "$ref" : "HostDnsConfig.jsd"
+    },
+    "ipRouteConfig" : {
+      "type" : "object",
+      "$ref" : "HostIpRouteConfig.jsd"
+    },
+    "pnics" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "PhysicalNic.jsd"
+      }
+    },
+    "vnics" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "HostVirtualNic.jsd"
+      }
+    },
+    "vswitchs" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "HostVirtualSwitch.jsd"
+      }
+    }
+  }
+}

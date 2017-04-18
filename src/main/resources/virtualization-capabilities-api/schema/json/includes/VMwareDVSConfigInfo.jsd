@@ -1,0 +1,17 @@
+{
+  "type" : "object",
+  "id" : "VMwareDVSConfigInfo.jsd",
+  "properties" : {
+    "portSetting" : {
+      "type" : "object",
+      "$ref" : "DVPortSetting.jsd"
+    },
+    "hostMembers" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "DistributedVirtualSwitchHostMember.jsd"
+      }
+    }
+  }
+}

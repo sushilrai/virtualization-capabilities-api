@@ -1,0 +1,19 @@
+{
+  "type" : "object",
+  "id" : "Cluster.jsd",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "hosts" : {
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "object",
+        "$ref" : "HostSystem.jsd"
+      }
+    }
+  }
+}

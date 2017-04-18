@@ -11,7 +11,7 @@
           "$ref":"includes/MessageProperties.jsd"
        },
        "virtualMachineInfo":{
-          "$ref":"includes/VirtualMachineInfo.jsd"
+          "$ref":"includes/VirtualMachine.jsd"
        }
     },
     "required":[

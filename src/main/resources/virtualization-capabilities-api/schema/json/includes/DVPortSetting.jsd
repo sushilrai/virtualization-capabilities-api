@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "id" : "DVPortSetting.jsd",
+  "properties" : {
+    "policy" : {
+      "type" : "object",
+      "$ref" : "DVSSecurityPolicy.jsd"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type" : "object",
+  "id" : "Datacenter.jsd",
+  "properties" : {
+    "clusters" : {
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "object",
+        "$ref" : "Cluster.jsd"
+      }
+    },
+    "networks" : {
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "object",
+        "$ref" : "Network.jsd"
+      }
+    },
+    "dvSwitch" : {
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "object",
+        "$ref" : "DvSwitch.jsd"
+      }
+    },
+    "datastores" : {
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "object",
+        "$ref" : "Datastore.jsd"
+      }
+    },
+    "vms" : {
+      "type" : "object",
+      "additionalProperties" : {
+        "type" : "object",
+        "$ref" : "VirtualMachine.jsd"
+      }
+    }
+  }
+}

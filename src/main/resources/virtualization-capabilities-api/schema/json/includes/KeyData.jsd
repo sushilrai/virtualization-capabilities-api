@@ -1,0 +1,12 @@
+{
+  "type" : "object",
+  "id" : "KeyData.jsd",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    }
+  }
+}

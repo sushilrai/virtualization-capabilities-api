@@ -1,0 +1,16 @@
+{
+  "type" : "object",
+  "id" : "VirtualMachine.jsd",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "guest" : {
+      "type" : "object",
+      "$ref" : "GuestInfo.jsd"
+    }
+  }
+}

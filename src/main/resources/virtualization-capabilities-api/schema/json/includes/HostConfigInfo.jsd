@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "id" : "HostConfigInfo.jsd",
+  "properties" : {
+    "network" : {
+      "type" : "object",
+      "$ref" : "HostNetworkInfo.jsd"
+    }
+  }
+}

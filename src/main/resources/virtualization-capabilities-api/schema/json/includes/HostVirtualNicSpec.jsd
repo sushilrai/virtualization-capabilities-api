@@ -1,0 +1,17 @@
+{
+  "type" : "object",
+  "id" : "HostVirtualNicSpec.jsd",
+  "properties" : {
+    "mac" : {
+      "type" : "string"
+    },
+    "ip" : {
+      "type" : "object",
+      "$ref" : "HostIpConfig.jsd"
+    },
+    "dvsPortConnection" : {
+      "type" : "object",
+      "$ref" : "DistributedVirtualSwicthPortConnection.jsd"
+    }
+  }
+}
