@@ -5,6 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>virtualization-capabilities-api</artifactId>
+    <groupId>com.dell.cpsd.virtualization.capabilities.api</groupId>
 
     <version>0.1-SNAPSHOT</version>
 
@@ -42,6 +43,13 @@
         <dependency>
             <groupId>org.everit.json</groupId>
             <artifactId>org.everit.json.schema</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dell.cpsd.common.messaging</groupId>
+            <artifactId>common-testing</artifactId>
+            <version>1.1-SNAPSHOT</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- Test Dependencies -->
@@ -87,15 +95,16 @@
                 </dependencies>
                 <executions>
                     <execution>
-                        <id>generate-json-model-endpoint-registration-api</id>
+                        <id>generate-json-model-virtualization-capabilities-api</id>
                         <phase>generate-resources</phase>
                         <goals>
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <sourceDirectory>${project.basedir}/src/main/resources/virtualization-capabilities-api/schema/json</sourceDirectory>
-                            <targetPackage>com.dell.cpsd.endpoint.registration.api</targetPackage>
-                            <outputDirectory>${project.build.directory}/generated-sources/endpoint-registration-api</outputDirectory>
+                            <sourceDirectory>${project.basedir}/src/main/resources/virtualization-capabilities-api/schema/json
+                            </sourceDirectory>
+                            <targetPackage>com.dell.cpsd.vcenter.capabilities.api</targetPackage>
+                            <outputDirectory>${project.build.directory}/generated-sources/virtualization-capabilities-api</outputDirectory>
                             <removeOldOutput>true</removeOldOutput>
                             <useLongIntegers>true</useLongIntegers>
                             <includeConstructors>true</includeConstructors>
@@ -138,22 +147,22 @@
                     <source>${java-version}</source>
                     <target>${java-version}</target>
                 </configuration>
-	</plugin>
-	<plugin>
-		<groupId>org.jacoco</groupId>
-		<artifactId>jacoco-maven-plugin</artifactId>
-		<version>${jacoco-maven-plugin.version}</version>
-	</plugin>
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-surefire-plugin</artifactId>
-		<version>${maven-surefire-plugin.version}</version>
-	</plugin>
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-failsafe-plugin</artifactId>
-		<version>${maven-failsafe-plugin.version}</version>
-	</plugin>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${jacoco-maven-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>${maven-failsafe-plugin.version}</version>
+            </plugin>
 
         </plugins>
     </build>

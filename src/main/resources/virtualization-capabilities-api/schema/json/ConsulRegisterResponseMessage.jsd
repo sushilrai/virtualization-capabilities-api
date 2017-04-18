@@ -1,21 +1,21 @@
 {
     "$schema":"http://json-schema.org/draft-04/schema#",
     "type":"object",
-    "description":"Response to an endpoint query request.",
+    "description":"Response to an consul registration query response.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.discoveryResponseInfo",
+       "message":"com.dell.cpsd.vcenter-adapter.registration.info.response",
        "version":"1.0"
     },
     "properties":{
        "messageProperties":{
           "$ref":"includes/MessageProperties.jsd"
        },
-       "datacenter":{
-          "$ref":"includes/Datacenter.jsd"
+       "responseInfo":{
+          "$ref":"includes/ConsulRegisterResponseInfo.jsd"
        }
     },
     "required":[
        "messageProperties",
-       "discoveryResponseInfo"
+       "responseInfo"
     ]
 }

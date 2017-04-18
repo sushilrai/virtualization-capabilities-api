@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "properties": {
+        "hostName": {
+            "type": "string"
+        },
+        "maintenanceModeEnable": {
+            "type": "boolean"
+        }
+    },
+    "type": "object"
+}

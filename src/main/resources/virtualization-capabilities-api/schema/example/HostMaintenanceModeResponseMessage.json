@@ -3,9 +3,5 @@
     "timestamp": "2010-01-01T12:00:00Z",
     "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
   },
-  "registrationInfo": {
-    "address": "0.0.0.0",
-    "username": "user",
-    "password": "1234"
-  }
+  "status":"SUCCESS"
 }

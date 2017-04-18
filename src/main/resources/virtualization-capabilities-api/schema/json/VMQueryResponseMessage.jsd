@@ -3,19 +3,22 @@
     "type":"object",
     "description":"Response to an endpoint query request.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.discoveryResponseInfo",
+       "message":"com.dell.cpsd.vcenter-adapter.vm.query.response",
        "version":"1.0"
     },
     "properties":{
        "messageProperties":{
           "$ref":"includes/MessageProperties.jsd"
        },
-       "datacenter":{
-          "$ref":"includes/Datacenter.jsd"
+       "virtualMachines":{
+          "type": "array",
+          "items":{
+            "$ref":"includes/VirtualMachine.jsd"
+          }
        }
     },
     "required":[
        "messageProperties",
-       "discoveryResponseInfo"
+       "virtualMachines"
     ]
 }
