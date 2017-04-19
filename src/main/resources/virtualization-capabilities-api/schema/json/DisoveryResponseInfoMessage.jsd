@@ -10,8 +10,11 @@
        "messageProperties":{
           "$ref":"includes/MessageProperties.jsd"
        },
-       "datacenter":{
-          "$ref":"includes/Datacenter.jsd"
+       "datacenters":{
+           "type": "array",
+           "items": {
+              "$ref":"includes/Datacenter.jsd"
+           }
        }
     },
     "required":[
