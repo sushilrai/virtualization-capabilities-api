@@ -1,22 +1,25 @@
 {
     "$schema":"http://json-schema.org/draft-04/schema#",
     "type":"object",
-    "description":"Response to an endpoint query request.",
+    "description":"Response message sent to install ESxi.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.discoveryRequestInfo",
+       "message":"cpsd.controlplane.hypervisor.destroy.vm.response",
        "version":"1.0"
     },
     "properties":{
        "messageProperties":{
           "$ref":"includes/MessageProperties.jsd"
        },
-       "credentials":{
-          "$ref":"includes/DiscoveryRequestInfo.jsd"
+       "status": {
+           "enum": [
+               "SUCCESS",
+               "FAILED"
+           ],
+           "type": "string"
        }
     },
     "required":[
        "messageProperties",
-       "discoveryRequestInfo"
+       "status"
     ]
 }
-
