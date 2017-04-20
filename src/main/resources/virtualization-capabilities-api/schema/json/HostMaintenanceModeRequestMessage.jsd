@@ -10,6 +10,9 @@
        "messageProperties":{
           "$ref":"includes/MessageProperties.jsd"
        },
+       "credentials":{
+                 "$ref":"includes/DiscoveryRequestInfo.jsd"
+              },
        "maintenanceModeRequest":{
           "$ref":"includes/MaintenanceModeRequest.jsd"
        }
