@@ -2,7 +2,7 @@
   "type" : "object",
   "id" : "HostVirtualSwitchSpec.jsd",
   "properties" : {
-    "policy" : {
+    "hostNetworkPolicy" : {
       "type" : "object",
       "$ref" : "HostNetworkPolicy.jsd"
     }

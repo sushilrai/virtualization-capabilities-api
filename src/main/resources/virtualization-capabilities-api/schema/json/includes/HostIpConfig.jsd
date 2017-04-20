@@ -10,9 +10,6 @@
     },
     "subnetMask" : {
       "type" : "string"
-    },
-    "ipV6Address" : {
-      "type" : "string"
     }
   }
 }

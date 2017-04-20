@@ -9,11 +9,8 @@
       "type" : "string"
     },
     "hosts" : {
-      "type" : "object",
-      "additionalProperties" : {
-        "type" : "object",
-        "$ref" : "HostSystem.jsd"
-      }
+      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.HostSystem>",
+      "type" : "object"
     }
   }
 }

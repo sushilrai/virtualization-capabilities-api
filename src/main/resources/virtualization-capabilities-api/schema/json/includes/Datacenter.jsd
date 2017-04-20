@@ -2,40 +2,31 @@
   "type" : "object",
   "id" : "Datacenter.jsd",
   "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
     "clusters" : {
-      "type" : "object",
-      "additionalProperties" : {
-        "type" : "object",
-        "$ref" : "Cluster.jsd"
-      }
+      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.Cluster>",
+      "type" : "object"
     },
     "networks" : {
-      "type" : "object",
-      "additionalProperties" : {
-        "type" : "object",
-        "$ref" : "Network.jsd"
-      }
+        "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.Network>",
+        "type" : "object"
     },
-    "dvSwitch" : {
-      "type" : "object",
-      "additionalProperties" : {
-        "type" : "object",
-        "$ref" : "DvSwitch.jsd"
-      }
+    "dvSwitches" : {
+      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.DvSwitch>",
+      "type" : "object"
     },
     "datastores" : {
-      "type" : "object",
-      "additionalProperties" : {
-        "type" : "object",
-        "$ref" : "Datastore.jsd"
-      }
+      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.Datastore>",
+      "type" : "object"
     },
     "vms" : {
-      "type" : "object",
-      "additionalProperties" : {
-        "type" : "object",
-        "$ref" : "VirtualMachine.jsd"
-      }
+      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.VirtualMachine>",
+       "type" : "object"
     }
   }
 }

@@ -2,7 +2,7 @@
   "type" : "object",
   "id" : "HostNetworkPolicy.jsd",
   "properties" : {
-    "policy" : {
+    "hostNetworkSecurityPolicy" : {
       "type" : "object",
       "$ref" : "HostNetworkSecurityPolicy.jsd"
     }

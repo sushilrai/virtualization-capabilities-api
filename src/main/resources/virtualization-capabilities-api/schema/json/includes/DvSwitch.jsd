@@ -17,7 +17,7 @@
     "uuid" : {
       "type" : "string"
     },
-    "configInfo" : {
+    "vmwareDVSConfigInfo" : {
       "type" : "object",
       "$ref" : "VMwareDVSConfigInfo.jsd"
     }

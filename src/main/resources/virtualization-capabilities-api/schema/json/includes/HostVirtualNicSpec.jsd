@@ -11,7 +11,7 @@
     },
     "dvsPortConnection" : {
       "type" : "object",
-      "$ref" : "DistributedVirtualSwicthPortConnection.jsd"
+      "$ref" : "DistributedVirtualSwitchPortConnection.jsd"
     }
   }
 }
