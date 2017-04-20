@@ -1,9 +1,9 @@
 {
     "$schema":"http://json-schema.org/draft-04/schema#",
     "type":"object",
-    "description":"Discover vcenter related object request message",
+    "description":"Discovery cluster info request message.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.discoveryRequestInfo",
+       "message":"com.dell.cpsd.vcenter-adapter.discoverClusterRequestInfo",
        "version":"1.0"
     },
     "properties":{

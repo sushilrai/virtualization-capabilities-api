@@ -1,7 +1,7 @@
 {
     "$schema":"http://json-schema.org/draft-04/schema#",
     "type":"object",
-    "description":"Response to an endpoint query request.",
+    "description":"Response to vcenter discovery request message.",
     "_meta":{
        "message":"com.dell.cpsd.vcenter-adapter.discoveryResponseInfo",
        "version":"1.0"
