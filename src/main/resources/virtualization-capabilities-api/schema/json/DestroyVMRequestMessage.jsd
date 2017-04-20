@@ -1,9 +1,9 @@
 {
     "$schema":"http://json-schema.org/draft-04/schema#",
     "type":"object",
-    "description":"Discover vcenter related object request message",
+    "description":"Response to an endpoint query request.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.discoveryRequestInfo",
+       "message":"cpsd.controlplane.hypervisor.destroy.vm",
        "version":"1.0"
     },
     "properties":{
@@ -12,11 +12,15 @@
        },
        "credentials":{
           "$ref":"includes/DiscoveryRequestInfo.jsd"
-       }
+       },
+       "uuid": {
+          "type": "string"
+        }
     },
     "required":[
        "messageProperties",
-       "discoveryRequestInfo"
+       "credentials",
+       "uuid"
     ]
 }
 
