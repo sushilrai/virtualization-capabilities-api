@@ -1,0 +1,18 @@
+{
+  "type" : "object",
+  "id" : "PhysicalNic.jsd",
+  "properties" : {
+    "device" : {
+      "type" : "string"
+    },
+    "driver" : {
+      "type" : "string"
+    },
+    "mac" : {
+      "type" : "string"
+    },
+    "pci" : {
+      "type" : "string"
+    }
+  }
+}

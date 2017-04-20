@@ -1,0 +1,12 @@
+{
+  "type" : "object",
+  "id" : "DistributedVirtualSwicthPortConnection.jsd",
+  "properties" : {
+    "portKey" : {
+      "type" : "string"
+    },
+    "portGroupId" : {
+      "type" : "string"
+    }
+  }
+}

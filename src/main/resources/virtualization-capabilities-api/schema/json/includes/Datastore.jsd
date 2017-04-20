@@ -1,0 +1,28 @@
+{
+  "type" : "object",
+  "id" : "Datastore.jsd",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "hostIds" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "vmIds" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "summary" : {
+      "type" : "object",
+      "$ref" : "DatastoreSummary.jsd"
+    }
+  }
+}

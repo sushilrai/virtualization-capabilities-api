@@ -1,0 +1,22 @@
+{
+  "type" : "object",
+  "id" : "GuestInfo.jsd",
+  "properties" : {
+    "guestId" : {
+      "type" : "string"
+    },
+    "guestFullName" : {
+      "type" : "string"
+    },
+    "hostName" : {
+      "type" : "string"
+    },
+    "net" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "GuestNicInfo.jsd"
+      }
+    }
+  }
+}

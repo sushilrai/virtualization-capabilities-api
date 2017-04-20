@@ -1,0 +1,9 @@
+{
+  "type" : "object",
+  "id" : "HostNetworkSecurityPolicy.jsd",
+  "properties" : {
+    "allowPromiscuous" : {
+      "type" : "boolean"
+    }
+  }
+}

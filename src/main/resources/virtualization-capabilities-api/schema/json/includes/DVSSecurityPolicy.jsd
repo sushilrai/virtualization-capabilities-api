@@ -1,0 +1,9 @@
+{
+  "type" : "object",
+  "id" : "DVSSecurityPolicy.jsd",
+  "properties" : {
+    "allowPromicuous" : {
+      "type" : "boolean"
+    }
+  }
+}

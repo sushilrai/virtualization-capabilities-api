@@ -103,7 +103,7 @@
                         <configuration>
                             <sourceDirectory>${project.basedir}/src/main/resources/virtualization-capabilities-api/schema/json
                             </sourceDirectory>
-                            <targetPackage>com.dell.cpsd.virtualization.capabilities.api</targetPackage>
+                            <targetPackage>com.dell.cpsd.vcenter.capabilities.api</targetPackage>
                             <outputDirectory>${project.build.directory}/generated-sources/virtualization-capabilities-api</outputDirectory>
                             <removeOldOutput>true</removeOldOutput>
                             <useLongIntegers>true</useLongIntegers>

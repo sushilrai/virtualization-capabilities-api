@@ -1,0 +1,25 @@
+{
+  "type" : "object",
+  "id" : "DvSwitch.jsd",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "portGroupids" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "uuid" : {
+      "type" : "string"
+    },
+    "vmwareDVSConfigInfo" : {
+      "type" : "object",
+      "$ref" : "VMwareDVSConfigInfo.jsd"
+    }
+  }
+}

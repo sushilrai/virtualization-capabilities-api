@@ -1,0 +1,21 @@
+{
+  "type" : "object",
+  "id" : "GuestNicInfo.jsd",
+  "properties" : {
+    "connected" : {
+      "type" : "boolean"
+    },
+    "ipAddresses" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "macAddress" : {
+      "type" : "string"
+    },
+    "networkId" : {
+      "type" : "string"
+    }
+  }
+}

@@ -10,8 +10,11 @@
        "messageProperties":{
           "$ref":"includes/MessageProperties.jsd"
        },
-       "discoveryResponseInfo":{
-          "$ref":"includes/DiscoveryResponseInfo.jsd"
+       "datacenters":{
+           "type": "array",
+           "items": {
+              "$ref":"includes/Datacenter.jsd"
+           }
        }
     },
     "required":[

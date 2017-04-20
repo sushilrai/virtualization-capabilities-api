@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "id" : "HostVirtualSwitchSpec.jsd",
+  "properties" : {
+    "hostNetworkPolicy" : {
+      "type" : "object",
+      "$ref" : "HostNetworkPolicy.jsd"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type" : "object",
+  "id" : "HostIpConfig.jsd",
+  "properties" : {
+    "dhcp" : {
+      "type" : "boolean"
+    },
+    "ipAddress" : {
+      "type" : "string"
+    },
+    "subnetMask" : {
+      "type" : "string"
+    }
+  }
+}

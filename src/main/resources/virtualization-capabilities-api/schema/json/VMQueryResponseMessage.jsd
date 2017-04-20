@@ -13,7 +13,7 @@
        "virtualMachines":{
           "type": "array",
           "items":{
-            "$ref":"includes/VirtualMachineInfo.jsd"
+            "javaType": "com.dell.cpsd.virtualization.capabilities.api.includes.VirtualMachine"
           }
        }
     },

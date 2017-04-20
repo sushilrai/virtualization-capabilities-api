@@ -1,0 +1,27 @@
+{
+  "type" : "object",
+  "id" : "HostDnsConfig.jsd",
+  "properties" : {
+    "ipAddresses" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "dhcp" : {
+      "type" : "boolean"
+    },
+    "domainName" : {
+      "type" : "string"
+    },
+    "hostName" : {
+      "type" : "string"
+    },
+    "searchDomains" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    }
+  }
+}

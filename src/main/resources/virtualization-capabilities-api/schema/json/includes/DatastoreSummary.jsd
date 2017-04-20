@@ -1,0 +1,12 @@
+{
+  "type" : "object",
+  "id" : "DatastoreSummary.jsd",
+  "properties" : {
+    "type" : {
+      "type" : "string"
+    },
+    "url" : {
+      "type" : "string"
+    }
+  }
+}

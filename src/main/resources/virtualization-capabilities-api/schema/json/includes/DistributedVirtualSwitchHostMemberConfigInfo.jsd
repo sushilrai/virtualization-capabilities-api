@@ -1,0 +1,13 @@
+{
+  "type" : "object",
+  "id" : "DistributedVirtualSwitchHostMemberConfigInfo.jsd",
+  "properties" : {
+    "hostId" : {
+      "type" : "string"
+    },
+    "pnicBacking" : {
+      "type" : "object",
+      "$ref" : "DistributedVirtualSwitchHostMemberPnicBacking.jsd"
+    }
+  }
+}

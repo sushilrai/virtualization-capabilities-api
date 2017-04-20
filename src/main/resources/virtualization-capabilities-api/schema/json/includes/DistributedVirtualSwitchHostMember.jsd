@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "id" : "DistributedVirtualSwitchHostMember.jsd",
+  "properties" : {
+    "configInfo" : {
+      "type" : "object",
+      "$ref" : "DistributedVirtualSwitchHostMemberConfigInfo.jsd"
+    }
+  }
+}

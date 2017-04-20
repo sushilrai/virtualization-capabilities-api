@@ -1,0 +1,34 @@
+{
+  "type" : "object",
+  "id" : "PortGroup.jsd",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "hostIds" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "vmIds" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "portKeys" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "configInfo" : {
+      "type" : "object",
+      "$ref" : "DVPortgroupConfigInfo.jsd"
+    }
+  }
+}

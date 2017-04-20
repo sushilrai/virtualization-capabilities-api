@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "id" : "HostNetworkPolicy.jsd",
+  "properties" : {
+    "hostNetworkSecurityPolicy" : {
+      "type" : "object",
+      "$ref" : "HostNetworkSecurityPolicy.jsd"
+    }
+  }
+}

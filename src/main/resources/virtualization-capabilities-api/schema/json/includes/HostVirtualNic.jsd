@@ -1,0 +1,19 @@
+{
+  "type" : "object",
+  "id" : "HostVirtualNic.jsd",
+  "properties" : {
+    "device" : {
+      "type" : "string"
+    },
+    "port" : {
+      "type" : "string"
+    },
+    "portGroup" : {
+      "type" : "string"
+    },
+    "specification" : {
+      "type" : "object",
+      "$ref" : "HostVirtualNicSpec.jsd"
+    }
+  }
+}

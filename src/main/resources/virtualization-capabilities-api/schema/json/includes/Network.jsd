@@ -1,0 +1,24 @@
+{
+  "type" : "object",
+  "id" : "Network.jsd",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "hostIds" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "vmIds" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    }
+  }
+}

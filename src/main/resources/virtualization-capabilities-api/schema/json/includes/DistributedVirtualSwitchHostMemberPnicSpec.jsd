@@ -1,0 +1,15 @@
+{
+  "type" : "object",
+  "id" : "DistributedVirtualSwitchHostMemberPnicSpec.jsd",
+  "properties" : {
+    "pnicDevice" : {
+      "type" : "string"
+    },
+    "uplinkPortkey" : {
+      "type" : "string"
+    },
+    "portGroupId" : {
+      "type" : "string"
+    }
+  }
+}
