@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName":"ClusterInfo",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "numberOfHosts": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "name",
+    "numberOfHosts"
+  ],
+  "type": "object"
+}

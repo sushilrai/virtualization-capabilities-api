@@ -1,0 +1,22 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Discovery cluster info request message.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter-adapter.discoverClusterRequestInfo",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"includes/MessageProperties.jsd"
+       },
+       "credentials":{
+          "$ref":"includes/DiscoveryRequestInfo.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "discoveryRequestInfo"
+    ]
+}
+
