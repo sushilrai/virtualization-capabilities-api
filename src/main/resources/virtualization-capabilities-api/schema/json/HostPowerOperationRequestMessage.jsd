@@ -1,0 +1,25 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Request to change host power status.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter-adapter.powercommand",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"includes/MessageProperties.jsd"
+       },
+       "credentials":{
+                 "$ref":"includes/DiscoveryRequestInfo.jsd"
+              },
+       "powerOperationRequest":{
+          "$ref":"includes/HostPowerOperationRequest.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "powerOperationRequest"
+    ]
+}
+

@@ -65,4 +65,20 @@ public class ValidateExamplesTest
         assertNull(errors, errors);
     }
 
+
+    @Test
+    public void HostPowerOperationTest() throws Exception
+    {
+        String jsdName = "HostPowerOperationRequestMessage";
+        String jsonName = "HostPowerOperationRequestMessage";
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        assertNull(errors, errors);
+
+
+        jsdName = "HostPowerOperationResponseMessage";
+        jsonName = "HostPowerOperationResponseMessage";
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        assertNull(errors, errors);
+    }
+
 }
