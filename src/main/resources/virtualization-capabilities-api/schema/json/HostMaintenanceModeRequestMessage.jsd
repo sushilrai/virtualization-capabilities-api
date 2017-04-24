@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Request to put host in maintenance mode.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.maintenanceModeRequest",
+       "message":"com.dell.cpsd.vcenter.maintenanceModeRequest",
        "version":"1.0"
     },
     "properties":{

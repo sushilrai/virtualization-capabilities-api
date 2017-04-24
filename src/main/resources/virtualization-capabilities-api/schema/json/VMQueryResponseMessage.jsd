@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Response to an endpoint query request.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.vm.query.response",
+       "message":"com.dell.cpsd.vcenter.vm.query.response",
        "version":"1.0"
     },
     "properties":{

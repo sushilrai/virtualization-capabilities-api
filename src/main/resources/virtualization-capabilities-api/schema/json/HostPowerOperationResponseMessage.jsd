@@ -1,21 +1,25 @@
 {
     "$schema":"http://json-schema.org/draft-04/schema#",
     "type":"object",
-    "description":"Response to an consul registration query response.",
+    "description":"Response message sent to install ESxi.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter.registration.info.response",
+       "message":"com.dell.cpsd.vcenter.powercommand.response",
        "version":"1.0"
     },
     "properties":{
        "messageProperties":{
           "$ref":"includes/MessageProperties.jsd"
        },
-       "responseInfo":{
-          "$ref":"includes/ConsulRegisterResponseInfo.jsd"
+       "status": {
+           "enum": [
+               "SUCCESS",
+               "FAILED"
+           ],
+           "type": "string"
        }
     },
     "required":[
        "messageProperties",
-       "responseInfo"
+       "status"
     ]
 }

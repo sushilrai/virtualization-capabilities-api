@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Response to discover cluster request mesage.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.discoverClusterResponseInfo",
+       "message":"com.dell.cpsd.vcenter.discoverClusterResponseInfo",
        "version":"1.0"
     },
     "properties":{
