@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Request to change host power status.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.powercommand",
+       "message":"com.dell.cpsd.vcenter.powercommand",
        "version":"1.0"
     },
     "properties":{

@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Response to an consul registration query response.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.registration.info.response",
+       "message":"com.dell.cpsd.vcenter.registration.info.response",
        "version":"1.0"
     },
     "properties":{

@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Discover vcenter related object request message",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter-adapter.discoveryRequestInfo",
+       "message":"com.dell.cpsd.vcenter.discoveryRequestInfo",
        "version":"1.0"
     },
     "properties":{
