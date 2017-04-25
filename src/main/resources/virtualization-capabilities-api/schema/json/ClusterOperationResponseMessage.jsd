@@ -1,0 +1,25 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Response message sent to cluster command.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.clusteroperation.response",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"includes/MessageProperties.jsd"
+       },
+       "status": {
+           "enum": [
+               "SUCCESS",
+               "FAILED"
+           ],
+           "type": "string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "status"
+    ]
+}

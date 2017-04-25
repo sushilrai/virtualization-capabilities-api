@@ -81,4 +81,18 @@ public class ValidateExamplesTest
         assertNull(errors, errors);
     }
 
+    @Test
+    public void ClusterOperationTest() throws Exception
+    {
+        String jsdName = "ClusterOperationRequestMessage";
+        String jsonName = "ClusterOperationRequestMessage";
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        assertNull(errors, errors);
+
+
+        jsdName = "ClusterOperationResponseMessage";
+        jsonName = "ClusterOperationResponseMessage";
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        assertNull(errors, errors);
+    }
 }

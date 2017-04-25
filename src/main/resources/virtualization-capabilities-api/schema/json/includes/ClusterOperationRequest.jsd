@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "properties": {
+        "hostName": {
+            "type": "string"
+        },
+        "userName": {
+                    "type": "string"
+        },
+        "password": {
+                    "type": "string"
+        },
+        "clusterID": {
+                    "type": "string"
+        },
+        "clusterOperation": {
+            "enum": [
+               "ADD_HOST",
+               "REMOVE_HOST"
+           ],
+           "type": "string"
+        }
+    },
+    "type": "object"
+}
