@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "KeyData.jsd",
+  "javaName" : "KeyData",
   "properties" : {
     "name" : {
       "type" : "string"

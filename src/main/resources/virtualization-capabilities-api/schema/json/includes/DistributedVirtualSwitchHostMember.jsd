@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DistributedVirtualSwitchHostMember.jsd",
+  "javaName" : "DistributedVirtualSwitchHostMember",
   "properties" : {
     "configInfo" : {
       "type" : "object",

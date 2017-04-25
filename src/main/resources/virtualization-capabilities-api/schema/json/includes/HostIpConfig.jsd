@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostIpConfig.jsd",
+  "javaName" : "HostIpConfig",
   "properties" : {
     "dhcp" : {
       "type" : "boolean"

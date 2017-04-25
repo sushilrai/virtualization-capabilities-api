@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "PortGroup.jsd",
+  "javaName" : "PortGroup",
   "properties" : {
     "name" : {
       "type" : "string"

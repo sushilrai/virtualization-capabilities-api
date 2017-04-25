@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostVirtualNicSpec.jsd",
+  "javaName" : "HostVirtualNicSpec",
   "properties" : {
     "mac" : {
       "type" : "string"

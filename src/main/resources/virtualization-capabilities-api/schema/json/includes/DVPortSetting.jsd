@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DVPortSetting.jsd",
+  "javaName" : "DVPortSetting",
   "properties" : {
     "policy" : {
       "type" : "object",

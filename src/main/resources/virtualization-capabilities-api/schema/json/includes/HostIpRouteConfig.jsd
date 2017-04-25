@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostIpRouteConfig.jsd",
+  "javaName" : "HostIpRouteConfig",
   "properties" : {
     "defaultGateway" : {
       "type" : "string"

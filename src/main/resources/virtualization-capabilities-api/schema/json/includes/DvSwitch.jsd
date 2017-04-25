@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DvSwitch.jsd",
+  "javaName" : "DvSwitch",
   "properties" : {
     "name" : {
       "type" : "string"

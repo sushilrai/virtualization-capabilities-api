@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostSystem.jsd",
+  "javaName" : "HostSystem",
   "properties" : {
     "name" : {
       "type" : "string"

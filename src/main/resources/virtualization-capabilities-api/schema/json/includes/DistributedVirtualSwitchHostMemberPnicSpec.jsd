@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DistributedVirtualSwitchHostMemberPnicSpec.jsd",
+  "javaName" : "DistributedVirtualSwitchHostMemberPnicSpec",
   "properties" : {
     "pnicDevice" : {
       "type" : "string"

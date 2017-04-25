@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostNetworkPolicy.jsd",
+  "javaName" : "HostNetworkPolicy",
   "properties" : {
     "hostNetworkSecurityPolicy" : {
       "type" : "object",

@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "GuestNicInfo.jsd",
+  "javaName" : "GuestNicInfo",
   "properties" : {
     "connected" : {
       "type" : "boolean"

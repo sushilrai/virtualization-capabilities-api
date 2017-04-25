@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DVSSecurityPolicy.jsd",
+  "javaName" : "DVSSecurityPolicy",
   "properties" : {
     "allowPromicuous" : {
       "type" : "boolean"

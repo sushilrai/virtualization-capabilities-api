@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "PhysicalNic.jsd",
+  "javaName" : "PhysicalNic",
   "properties" : {
     "device" : {
       "type" : "string"

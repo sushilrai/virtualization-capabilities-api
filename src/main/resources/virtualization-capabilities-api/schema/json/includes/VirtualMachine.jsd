@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "VirtualMachine.jsd",
+  "javaName" : "VirtualMachine",
   "properties" : {
     "name" : {
       "type" : "string"

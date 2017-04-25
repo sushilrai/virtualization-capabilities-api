@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostNetworkInfo.jsd",
+  "javaName" : "HostNetworkInfo",
   "properties" : {
     "dnsConfig" : {
       "type" : "object",

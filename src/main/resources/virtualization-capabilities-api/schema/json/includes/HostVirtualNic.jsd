@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostVirtualNic.jsd",
+  "javaName" : "HostVirtualNic",
   "properties" : {
     "device" : {
       "type" : "string"

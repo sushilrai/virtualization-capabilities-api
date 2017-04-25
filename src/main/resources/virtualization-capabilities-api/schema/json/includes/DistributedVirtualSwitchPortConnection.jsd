@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DistributedVirtualSwicthPortConnection.jsd",
+  "javaName" : "DistributedVirtualSwicthPortConnection",
   "properties" : {
     "portKey" : {
       "type" : "string"

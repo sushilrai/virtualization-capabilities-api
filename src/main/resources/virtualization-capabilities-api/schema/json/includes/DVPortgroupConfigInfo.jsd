@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DVPortgroupConfigInfo.jsd",
+  "javaName" : "DVPortgroupConfigInfo",
   "properties" : {
     "portSetting" : {
       "type" : "object",

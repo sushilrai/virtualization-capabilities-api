@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "Cluster.jsd",
+  "javaName" : "Cluster",
   "properties" : {
     "name" : {
       "type" : "string"
@@ -9,8 +9,10 @@
       "type" : "string"
     },
     "hosts" : {
-      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.HostSystem>",
-      "type" : "object"
+        "type": "array",
+        "items": {
+            "$ref": "HostSystem.jsd"
+        }
     }
   }
 }

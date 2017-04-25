@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostVirtualSwitchSpec.jsd",
+  "javaName" : "HostVirtualSwitchSpec",
   "properties" : {
     "hostNetworkPolicy" : {
       "type" : "object",
