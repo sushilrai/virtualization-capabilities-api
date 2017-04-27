@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "GuestInfo.jsd",
+  "javaName" : "GuestInfo",
   "properties" : {
     "guestId" : {
       "type" : "string"

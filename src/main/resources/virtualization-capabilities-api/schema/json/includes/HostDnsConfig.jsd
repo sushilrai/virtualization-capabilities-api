@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostDnsConfig.jsd",
+  "javaName" : "HostDnsConfig",
   "properties" : {
     "ipAddresses" : {
       "type" : "array",

@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DatastoreSummary.jsd",
+  "javaName" : "DatastoreSummary",
   "properties" : {
     "type" : {
       "type" : "string"

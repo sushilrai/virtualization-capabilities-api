@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "HostNetworkSecurityPolicy.jsd",
+  "javaName" : "HostNetworkSecurityPolicy",
   "properties" : {
     "allowPromiscuous" : {
       "type" : "boolean"

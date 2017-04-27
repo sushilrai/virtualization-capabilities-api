@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "DistributedVirtualSwitchHostMemberPnicBacking.jsd",
+  "javaName" : "DistributedVirtualSwitchHostMemberPnicBacking",
   "properties" : {
     "spec" : {
       "type" : "array",

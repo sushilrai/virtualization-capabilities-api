@@ -9,24 +9,34 @@
       "type" : "string"
     },
     "clusters" : {
-      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.Cluster>",
-      "type" : "object"
+        "type": "array",
+        "items": {
+            "$ref": "Cluster.jsd"
+        }
     },
     "networks" : {
-        "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.Network>",
-        "type" : "object"
+        "type": "array",
+        "items": {
+            "$ref": "Network.jsd"
+        }
     },
     "dvSwitches" : {
-      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.DvSwitch>",
-      "type" : "object"
+        "type": "array",
+        "items": {
+            "$ref": "DvSwitch.jsd"
+        }
     },
     "datastores" : {
-      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.Datastore>",
-      "type" : "object"
+        "type": "array",
+        "items": {
+            "$ref": "Datastore.jsd"
+        }
     },
     "vms" : {
-      "javaType" : "java.util.Map<String, com.dell.cpsd.virtualization.capabilities.api.includes.VirtualMachine>",
-       "type" : "object"
+        "type": "array",
+        "items": {
+            "$ref": "VirtualMachine.jsd"
+        }
     }
   }
 }

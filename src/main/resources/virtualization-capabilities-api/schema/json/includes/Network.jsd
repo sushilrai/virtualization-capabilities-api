@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "Network.jsd",
+  "javaName" : "Network.jsd",
   "properties" : {
     "name" : {
       "type" : "string"

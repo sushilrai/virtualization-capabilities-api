@@ -1,6 +1,6 @@
 {
   "type" : "object",
-  "id" : "VMwareDVSConfigInfo.jsd",
+  "javaName" : "VMwareDVSConfigInfo",
   "properties" : {
     "portSetting" : {
       "type" : "object",
