@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "javaName" : "HostHardwareInfo",
+  "properties" : {
+    "systemInfo" : {
+      "type" : "object",
+      "$ref" : "HostSystemInfo.jsd"
+    }
+  }
+}

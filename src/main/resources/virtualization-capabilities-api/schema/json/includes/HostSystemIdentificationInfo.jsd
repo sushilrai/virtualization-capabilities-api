@@ -1,0 +1,15 @@
+{
+  "type" : "object",
+  "javaName" : "HostSystemIdentificationInfo",
+  "properties" : {
+    "AssetTag" : {
+      "type" : "string"
+    },
+    "OemSpecificString" : {
+      "type" : "string"
+    },
+    "ServiceTag" : {
+      "type" : "string"
+    }
+  }
+}

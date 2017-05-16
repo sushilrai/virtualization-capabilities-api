@@ -12,6 +12,10 @@
       "type" : "object",
       "$ref" : "HostConfigInfo.jsd"
     },
+    "hardware" : {
+      "type" : "object",
+      "$ref" : "HostHardwareInfo.jsd"
+     },
     "vmIds" : {
       "type" : "array",
       "items" : {
