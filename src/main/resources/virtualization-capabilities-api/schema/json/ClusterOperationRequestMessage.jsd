@@ -8,13 +8,13 @@
     },
     "properties":{
        "messageProperties":{
-          "$ref":"includes/MessageProperties.jsd"
+          "$ref":"MessageProperties.jsd"
        },
        "credentials":{
-                 "$ref":"includes/DiscoveryRequestInfo.jsd"
+                 "$ref":"DiscoveryRequestInfo.jsd"
               },
        "clusterOperationRequest":{
-          "$ref":"includes/ClusterOperationRequest.jsd"
+          "$ref":"ClusterOperationRequest.jsd"
        }
     },
     "required":[

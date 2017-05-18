@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName":"Query",
   "definitions": {},
   "id": "http://example.com/root.json",
   "properties": {

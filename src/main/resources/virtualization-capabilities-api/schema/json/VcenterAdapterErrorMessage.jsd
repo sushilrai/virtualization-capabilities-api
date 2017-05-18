@@ -9,12 +9,12 @@
   },
   "properties":{
     "messageProperties":{
-       "$ref":"includes/MessageProperties.jsd"
+       "$ref":"MessageProperties.jsd"
     },
     "errors": {
         "type": "array",
         "items": {
-            "$ref": "includes/VcenterAdapterError.jsd"
+            "$ref": "VcenterAdapterError.jsd"
         }
     }
   },

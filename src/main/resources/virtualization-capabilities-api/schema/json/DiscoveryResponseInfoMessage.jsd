@@ -8,12 +8,12 @@
     },
     "properties":{
        "messageProperties":{
-          "$ref":"includes/MessageProperties.jsd"
+          "$ref":"MessageProperties.jsd"
        },
        "datacenters":{
            "type": "array",
            "items": {
-              "$ref":"includes/Datacenter.jsd"
+              "$ref":"Datacenter.jsd"
            }
        }
     },

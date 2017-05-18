@@ -8,10 +8,10 @@
     },
     "properties":{
        "messageProperties":{
-          "$ref":"includes/MessageProperties.jsd"
+          "$ref":"MessageProperties.jsd"
        },
        "responseInfo":{
-          "$ref":"includes/ConsulRegisterResponseInfo.jsd"
+          "$ref":"ConsulRegisterResponseInfo.jsd"
        }
     },
     "required":[

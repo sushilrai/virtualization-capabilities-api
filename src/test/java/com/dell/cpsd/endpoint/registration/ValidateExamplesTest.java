@@ -6,8 +6,6 @@
 package com.dell.cpsd.endpoint.registration;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
 import static com.dell.cpsd.common.json.utils.JsonSchemaValidation.validateSchema;
 import static org.junit.Assert.assertNull;
@@ -27,7 +25,6 @@ public class ValidateExamplesTest
 {
     public static final String SCHEMA_DIR   = "/virtualization-capabilities-api/schema/json/";
     public static final String EXAMPLE_DIR  = "/virtualization-capabilities-api/schema/example/";
-    public static final String INCLUDES_DIR = SCHEMA_DIR + "includes";
 
 
     @Test
@@ -35,7 +32,7 @@ public class ValidateExamplesTest
     {
         String jsdName = "DiscoveryRequestInfoMessage";
         String jsonName = "VCenterDiscoverRequestMessage";
-        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
 
@@ -45,7 +42,7 @@ public class ValidateExamplesTest
     {
         String jsdName = "ConsulRegisterRequestMessage";
         String jsonName = "ConsulRegisterRequestMessage";
-        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
 
@@ -55,13 +52,13 @@ public class ValidateExamplesTest
     {
         String jsdName = "HostMaintenanceModeRequestMessage";
         String jsonName = "HostMaintenanceModeRequestMessage";
-        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
 
 
         jsdName = "HostMaintenanceModeResponseMessage";
         jsonName = "HostMaintenanceModeResponseMessage";
-        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
 
@@ -71,13 +68,13 @@ public class ValidateExamplesTest
     {
         String jsdName = "HostPowerOperationRequestMessage";
         String jsonName = "HostPowerOperationRequestMessage";
-        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
 
 
         jsdName = "HostPowerOperationResponseMessage";
         jsonName = "HostPowerOperationResponseMessage";
-        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
 
@@ -86,13 +83,13 @@ public class ValidateExamplesTest
     {
         String jsdName = "ClusterOperationRequestMessage";
         String jsonName = "ClusterOperationRequestMessage";
-        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
 
 
         jsdName = "ClusterOperationResponseMessage";
         jsonName = "ClusterOperationResponseMessage";
-        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", INCLUDES_DIR);
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
 }

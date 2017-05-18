@@ -9,10 +9,7 @@
       "type" : "string"
     },
     "hosts" : {
-        "type": "array",
-        "items": {
-            "$ref": "HostSystem.jsd"
-        }
+        "javaType": "java.util.Map<String, HostSystem>"
     }
   }
 }

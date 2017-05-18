@@ -1,0 +1,27 @@
+{
+  "type" : "object",
+  "id" : "Datacenter.jsd",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "clusters" : {
+        "javaType": "java.util.Map<String,Cluster>"
+    },
+    "networks" : {
+        "javaType": "java.util.Map<String,Network>"
+    },
+    "dvSwitches" : {
+        "javaType": "java.util.Map<String,DvSwitch>"
+    },
+    "datastores" : {
+        "javaType": "java.util.Map<String,Datastore>"
+    },
+    "vms" : {
+        "javaType": "java.util.Map<String,VirtualMachine>"
+    }
+  }
+}

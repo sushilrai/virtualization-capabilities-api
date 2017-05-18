@@ -8,10 +8,10 @@
     },
     "properties":{
        "messageProperties":{
-          "$ref":"includes/MessageProperties.jsd"
+          "$ref":"MessageProperties.jsd"
        },
        "registrationInfo":{
-          "$ref":"includes/RegistrationInfo.jsd"
+          "$ref":"RegistrationInfo.jsd"
        }
     },
     "required":[

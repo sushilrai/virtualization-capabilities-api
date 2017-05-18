@@ -8,13 +8,13 @@
     },
     "properties":{
        "messageProperties":{
-          "$ref":"includes/MessageProperties.jsd"
+          "$ref":"MessageProperties.jsd"
        },
        "credentials":{
-                 "$ref":"includes/DiscoveryRequestInfo.jsd"
+                 "$ref":"DiscoveryRequestInfo.jsd"
               },
        "maintenanceModeRequest":{
-          "$ref":"includes/MaintenanceModeRequest.jsd"
+          "$ref":"MaintenanceModeRequest.jsd"
        }
     },
     "required":[

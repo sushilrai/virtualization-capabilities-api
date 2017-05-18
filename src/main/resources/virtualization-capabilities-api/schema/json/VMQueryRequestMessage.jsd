@@ -8,10 +8,10 @@
     },
     "properties":{
        "messageProperties":{
-          "$ref":"includes/MessageProperties.jsd"
+          "$ref":"MessageProperties.jsd"
        },
        "query":{
-          "$ref":"includes/VirtualMachineQuery.jsd"
+          "$ref":"VirtualMachineQuery.jsd"
        }
     },
     "required":[

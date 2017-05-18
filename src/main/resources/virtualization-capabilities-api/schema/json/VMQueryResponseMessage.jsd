@@ -8,12 +8,12 @@
     },
     "properties":{
        "messageProperties":{
-          "$ref":"includes/MessageProperties.jsd"
+          "$ref":"MessageProperties.jsd"
        },
        "virtualMachines":{
           "type": "array",
           "items":{
-            "$ref": "includes/VirtualMachine.jsd"
+            "$ref": "VirtualMachine.jsd"
           }
        }
     },

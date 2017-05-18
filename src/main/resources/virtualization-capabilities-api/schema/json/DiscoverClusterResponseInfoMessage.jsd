@@ -8,10 +8,10 @@
     },
     "properties":{
        "messageProperties":{
-          "$ref":"includes/MessageProperties.jsd"
+          "$ref":"MessageProperties.jsd"
        },
        "discoverClusterResponseInfo":{
-          "$ref":"includes/DiscoverClusterResponseInfo.jsd"
+          "$ref":"DiscoverClusterResponseInfo.jsd"
        }
     },
     "required":[
