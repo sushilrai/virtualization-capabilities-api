@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "This message is sent to acknowledge that a request has been received and is in progress",
+  "_meta": {
+     "message":"com.dell.cpsd.vcenter.task.ack",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "javaName" : "TaskAckMessage",
+  "properties" : {
+    "messageProperties" : {
+      "type" : "object",
+      "$ref" : "MessageProperties.jsd"
+    },
+    "taskId" : {
+      "type" : "string",
+      "description": "The task Id of the task returned"
+    },
+    "operationType" : {
+      "type" : "string",
+      "description": "Operation type such as Host Power off, Enter Maintenance mode etc."
+    }
+  }
+}
