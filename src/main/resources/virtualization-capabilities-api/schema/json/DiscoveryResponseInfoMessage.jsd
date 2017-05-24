@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Response to vcenter discovery request message.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter.discoveryResponseInfo",
+       "message":"com.dell.cpsd.vcenter.discover.response",
        "version":"1.0"
     },
     "properties":{

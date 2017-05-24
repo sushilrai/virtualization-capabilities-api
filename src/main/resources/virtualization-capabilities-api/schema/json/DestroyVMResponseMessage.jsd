@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Response message sent to install ESxi.",
     "_meta":{
-       "message":"cpsd.controlplane.hypervisor.destroy.vm.response",
+       "message":"controlplane.hypervisor.vcenter.vm.destroy.response",
        "version":"1.0"
     },
     "properties":{
