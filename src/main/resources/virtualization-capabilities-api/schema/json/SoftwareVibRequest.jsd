@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "properties": {
+        "hostName": {
+            "type": "string"
+        },
+        "vibUrls":{
+            "type" : "array",
+            "items" : {
+                "type" : "string"
+            }
+        },
+        "vibOperation": {
+            "enum": [
+               "INSTALL"
+           ],
+           "type": "string"
+        }
+    },
+    "type": "object"
+}

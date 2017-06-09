@@ -1,0 +1,26 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Response to complete a software VIB operation.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.software.vib.response",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "status": {
+           "enum": [
+               "SUCCESS",
+               "SUCCESS - REBOOT REQUIRED",
+               "FAILED"
+           ],
+           "type": "string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "status"
+    ]
+}

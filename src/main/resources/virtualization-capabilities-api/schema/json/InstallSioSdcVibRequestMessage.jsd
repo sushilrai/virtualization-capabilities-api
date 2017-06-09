@@ -1,0 +1,24 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Request to complete a software VIB operation",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.software.vib.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "credentials":{
+          "$ref":"DiscoveryRequestInfo.jsd"
+       },
+       "softwareVibInstallRequest":{
+          "$ref":"SoftwareVibRequest.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "clusterOperationRequest"
+    ]
+}
