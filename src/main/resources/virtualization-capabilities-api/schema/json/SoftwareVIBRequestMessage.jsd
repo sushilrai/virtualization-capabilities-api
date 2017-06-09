@@ -11,14 +11,14 @@
           "$ref":"MessageProperties.jsd"
        },
        "credentials":{
-          "$ref":"DiscoveryRequestInfo.jsd"
-       },
+                 "$ref":"DiscoveryRequestInfo.jsd"
+              },
        "softwareVibInstallRequest":{
-          "$ref":"SoftwareVibRequest.jsd"
+          "$ref":"SoftwareVIBRequest.jsd"
        }
     },
     "required":[
        "messageProperties",
-       "clusterOperationRequest"
+       "softwareVibInstallRequest"
     ]
 }
