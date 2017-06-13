@@ -92,4 +92,19 @@ public class ValidateExamplesTest
         errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
+
+    @Test
+    public void addHostToDvSwitchMessageValidation() throws Exception
+    {
+        String jsdName = "AddHostToDvSwitchRequestMessage";
+        String jsonName = "AddHostToDvSwitchRequestMessage";
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
+        assertNull(errors, errors);
+
+
+        jsdName = "AddHostToDvSwitchResponseMessage";
+        jsonName = "AddHostToDvSwitchResponseMessage";
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
+        assertNull(errors, errors);
+    }
 }

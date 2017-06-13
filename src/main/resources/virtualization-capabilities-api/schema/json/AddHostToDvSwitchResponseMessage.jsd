@@ -1,0 +1,26 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "javaName": "AddHostToDvSwitchResponseMessage",
+    "description":"Add Host to dvswitch operation response message",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.add.host.dvswitch.response",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "status": {
+           "enum": [
+               "SUCCESS",
+               "FAILED"
+           ],
+           "type": "string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "status"
+    ]
+}

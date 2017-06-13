@@ -1,0 +1,28 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "javaName": "AddHostToDvSwitchRequestMessage",
+    "description":"Add hosts to dv switch request message",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.add.host.dvswitch.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "dvsname":{
+          "type": "string"
+       },
+       "hostnames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+       }
+    },
+    "required":[
+       "dvsname",
+       "hostnames"
+    ]
+}
