@@ -11,10 +11,10 @@
        "messageProperties":{
           "$ref":"MessageProperties.jsd"
        },
-       "dvsname":{
+       "hostname":{
           "type": "string"
        },
-       "hostnames": {
+       "dvsnames": {
           "type": "array",
           "items": {
             "type": "string"
@@ -22,7 +22,7 @@
        }
     },
     "required":[
-       "dvsname",
-       "hostnames"
+       "dvsnames",
+       "hostname"
     ]
 }

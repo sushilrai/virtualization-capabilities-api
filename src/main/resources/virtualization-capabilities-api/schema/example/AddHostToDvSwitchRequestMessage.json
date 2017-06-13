@@ -3,8 +3,8 @@
     "timestamp": "2010-01-01T12:00:00Z",
     "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
   },
-  "dvsname": "dvs-name-1",
-  "hostnames": [
-    "host-1"
+  "hostname": "host-name-1",
+  "dvsnames": [
+    "dvs-1"
   ]
 }
