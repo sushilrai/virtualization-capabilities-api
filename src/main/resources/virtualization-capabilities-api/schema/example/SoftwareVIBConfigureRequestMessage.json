@@ -1,0 +1,17 @@
+{
+  "messageProperties":{
+    "timestamp":"2017-03-16T15:28:21.927+0000",
+    "correlationId":"4455",
+    "replyTo": "xyz"
+  },
+  "credentials":{
+    "address": "10.246.61.4",
+    "password": "vmware",
+    "username": "root"
+  },
+  "softwareVibConfigureRequest":{
+    "hostName": "10.246.61.19",
+    "moduleName": "testModule",
+    "moduleOptions": "option"
+  }
+}
