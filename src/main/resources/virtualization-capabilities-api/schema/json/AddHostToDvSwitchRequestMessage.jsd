@@ -11,6 +11,9 @@
        "messageProperties":{
           "$ref":"MessageProperties.jsd"
        },
+       "credentials":{
+          "$ref":"DiscoveryRequestInfo.jsd"
+       },
        "hostname":{
           "type": "string"
        },
