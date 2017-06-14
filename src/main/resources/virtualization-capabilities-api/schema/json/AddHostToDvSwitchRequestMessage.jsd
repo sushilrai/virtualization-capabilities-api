@@ -17,6 +17,12 @@
        "hostname":{
           "type": "string"
        },
+       "pNicNames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+         }
+       },
        "dvsnames": {
           "type": "array",
           "items": {
@@ -26,6 +32,7 @@
     },
     "required":[
        "dvsnames",
-       "hostname"
+       "hostname",
+       "pNicNames"
     ]
 }

@@ -4,6 +4,9 @@
     "correlationId": "90015098-3cd2-3fb0-9696-3f7d28e17f72"
   },
   "hostname": "host-name-1",
+  "pNicNames": [
+    "pnic-1"
+  ],
   "dvsnames": [
     "dvs-1"
   ]
