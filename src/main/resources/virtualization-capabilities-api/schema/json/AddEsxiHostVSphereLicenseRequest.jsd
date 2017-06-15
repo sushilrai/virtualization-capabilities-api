@@ -1,0 +1,29 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Request message for adding ESXi Host license, the message can change later on",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.add.host.license.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "credentials":{
+                 "$ref":"DiscoveryRequestInfo.jsd"
+              },
+       "licenseKey":{
+          "type":"string"
+       },
+       "hostname": {
+          "type": "string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "licenseKey",
+       "hostname"
+    ]
+}
+

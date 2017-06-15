@@ -1,0 +1,33 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "javaName":"UpdatePCIPassthruSVMRequestMessage",
+    "description":"Request to set the PCI passthru for ScaleIO VM.",
+    "_meta":{
+       "message":"com.dell.cpsd.controlplane.hypervisor.vcenter.updatePCI.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "credentials":{
+                 "$ref":"DiscoveryRequestInfo.jsd"
+       },
+       "hostname":{
+            "type":"string"
+       },
+       "hostPciIdList":{
+          "type":"array",
+          "items":{
+            "type":"string"
+          }
+       }
+    },
+    "required":[
+       "hostname",
+       "messageProperties",
+       "credentials",
+       "hostPciIdList"
+    ]
+}
