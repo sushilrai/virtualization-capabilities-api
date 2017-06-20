@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "properties": {
+        "poweredOn": {
+            "type": "boolean"
+        },
+        "template":{
+            "type" : "boolean"
+        }
+    },
+    "required":[
+       "poweredOn",
+       "template"
+    ],
+    "type": "object"
+}

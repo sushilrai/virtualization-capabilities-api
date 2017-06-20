@@ -1,0 +1,25 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Response message sent for deploy VM from template.",
+    "_meta":{
+       "message":"controlplane.hypervisor.vcenter.deployVMFromTemplate.response",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "status": {
+           "enum": [
+               "SUCCESS",
+               "FAILED"
+           ],
+           "type": "string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "status"
+    ]
+}

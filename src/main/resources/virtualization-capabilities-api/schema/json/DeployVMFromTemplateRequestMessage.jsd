@@ -1,0 +1,40 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Deploy VM From Template Request.",
+    "_meta":{
+       "message":"controlplane.hypervisor.vcenter.deployVMFromTemplate.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "credentials":{
+          "$ref":"DiscoveryRequestInfo.jsd"
+       },
+       "datacenterName":{
+          "type":"string"
+       },
+       "name":{
+          "type":"string"
+       },
+       "hostName":{
+          "type":"string"
+       },
+       "vmID":{
+          "type":"string"
+       },
+       "virtualMachineCloneSpec":{
+          "$ref":"VirtualMachineCloneSpec.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "credentials",
+       "folder",
+       "name",
+       "virtualMachineCloneSpec"
+    ]
+}
+
