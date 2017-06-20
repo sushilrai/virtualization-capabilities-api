@@ -12,22 +12,23 @@
           "$ref":"MessageProperties.jsd"
        },
        "credentials":{
-                 "$ref":"DiscoveryRequestInfo.jsd"
+          "$ref":"DiscoveryRequestInfo.jsd"
        },
        "hostname":{
             "type":"string"
        },
-       "hostPciIdList":{
-          "type":"array",
-          "items":{
-            "type":"string"
-          }
+       "hostPciDeviceId":{
+          "type":"string"
+       },
+       "vmId": {
+          "type": "string"
        }
     },
     "required":[
        "hostname",
        "messageProperties",
        "credentials",
-       "hostPciIdList"
+       "hostPciDeviceId",
+       "vmId"
     ]
 }
