@@ -107,4 +107,18 @@ public class ValidateExamplesTest
         errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
+
+    @Test
+    public void addEsxiHostLicenseValidation() throws Exception
+    {
+        String jsdName = "AddEsxiHostVSphereLicenseRequest";
+        String jsonName = "AddEsxiHostVSphereLicenseRequest";
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
+        assertNull(errors, errors);
+
+        jsdName = "AddEsxiHostVSphereLicenseRequest";
+        jsonName = "AddEsxiHostVSphereLicenseRequest";
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
+        assertNull(errors, errors);
+    }
 }

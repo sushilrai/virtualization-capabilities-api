@@ -12,9 +12,6 @@
        },
        "credentials":{
                  "$ref":"DiscoveryRequestInfo.jsd"
-              },
-       "licenseKey":{
-          "type":"string"
        },
        "hostname": {
           "type": "string"
@@ -22,7 +19,6 @@
     },
     "required":[
        "messageProperties",
-       "licenseKey",
        "hostname"
     ]
 }
