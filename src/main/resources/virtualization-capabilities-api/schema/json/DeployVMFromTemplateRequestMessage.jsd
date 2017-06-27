@@ -16,13 +16,13 @@
        "datacenterName":{
           "type":"string"
        },
-       "name":{
+       "newVMName":{
           "type":"string"
        },
        "hostName":{
           "type":"string"
        },
-       "vmID":{
+       "templateName":{
           "type":"string"
        },
        "virtualMachineCloneSpec":{
