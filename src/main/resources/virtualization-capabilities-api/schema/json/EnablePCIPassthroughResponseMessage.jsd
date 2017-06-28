@@ -1,0 +1,26 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "javaName":"EnablePCIPassthroughResponseMessage",
+    "description":"Response to enable the PCI passthrough for a host.",
+    "_meta":{
+       "message":"com.dell.cpsd.controlplane.hypervisor.vcenter.enablePCI.response",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "status": {
+           "enum": [
+               "SUCCESS",
+               "FAILED"
+           ],
+           "type": "string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "status"
+    ]
+}

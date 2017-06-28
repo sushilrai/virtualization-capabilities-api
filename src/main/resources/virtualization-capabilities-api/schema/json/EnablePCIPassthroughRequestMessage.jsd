@@ -1,0 +1,30 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "javaName":"EnablePCIPassthroughRequestMessage",
+    "description":"Request to enable the PCI passthrough for a host.",
+    "_meta":{
+       "message":"com.dell.cpsd.controlplane.hypervisor.vcenter.enablePCI.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "credentials":{
+          "$ref":"DiscoveryRequestInfo.jsd"
+       },
+       "hostname":{
+            "type":"string"
+       },
+       "hostPciDeviceId":{
+          "type":"string"
+       }
+    },
+    "required":[
+       "hostname",
+       "messageProperties",
+       "credentials",
+       "hostPciDeviceId"
+    ]
+}
