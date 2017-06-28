@@ -14,6 +14,7 @@
        "status": {
            "enum": [
                "SUCCESS",
+               "SUCCESS - REBOOT REQUIRED",
                "FAILED"
            ],
            "type": "string"
