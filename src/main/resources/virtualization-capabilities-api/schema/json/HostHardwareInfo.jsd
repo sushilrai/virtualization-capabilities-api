@@ -5,6 +5,12 @@
     "systemInfo" : {
       "type" : "object",
       "$ref" : "HostSystemInfo.jsd"
+    },
+    "pciDevice" : {
+       "type" : "array",
+       "items" : {
+         "$ref" : "HostPciDevice.jsd"
+       }
     }
   }
 }
