@@ -8,6 +8,15 @@
     "id" : {
       "type" : "string"
     },
+    "powerState" : {
+      "type" : "string"
+    },
+    "connectionState" : {
+      "type" : "string"
+    },
+    "maintenanceMode" : {
+      "type" : "boolean"
+    },
     "config" : {
       "type" : "object",
       "$ref" : "HostConfigInfo.jsd"
