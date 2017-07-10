@@ -116,8 +116,22 @@ public class ValidateExamplesTest
         String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
 
-        jsdName = "AddEsxiHostVSphereLicenseRequest";
-        jsonName = "AddEsxiHostVSphereLicenseRequest";
+        jsdName = "AddEsxiHostVSphereLicenseResponse";
+        jsonName = "AddEsxiHostVSphereLicenseResponse";
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
+        assertNull(errors, errors);
+    }
+
+    @Test
+    public void renameDatastoreValidation() throws Exception
+    {
+        String jsdName = "DatastoreRenameRequestMessage";
+        String jsonName = "DatastoreRenameRequestMessage";
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
+        assertNull(errors, errors);
+
+        jsdName = "DatastoreRenameResponseMessage";
+        jsonName = "DatastoreRenameResponseMessage";
         errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }

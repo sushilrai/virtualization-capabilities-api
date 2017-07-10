@@ -1,0 +1,29 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Data Store rename request message.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.rename.datastore.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "credentials":{
+          "$ref":"DiscoveryRequestInfo.jsd"
+       },
+       "datastoreName":{
+          "type":"string"
+       },
+       "newDatastoreName":{
+          "type":"string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "credentials",
+       "datastoreName",
+       "newDatastoreName"
+    ]
+}
