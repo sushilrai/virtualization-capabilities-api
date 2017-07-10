@@ -3,7 +3,7 @@
     "type":"object",
     "description":"Data Store rename response message.",
     "_meta":{
-       "message":"com.dell.cpsd.vcenter.rename.datastore.request",
+       "message":"com.dell.cpsd.vcenter.rename.datastore.response",
        "version":"1.0"
     },
     "properties":{
