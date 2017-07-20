@@ -14,6 +14,9 @@
     "networks" : {
         "javaType": "java.util.Map<String,Network>"
     },
+    "portgroups" : {
+        "javaType": "java.util.Map<String,PortGroup>"
+    },
     "dvSwitches" : {
         "javaType": "java.util.Map<String,DvSwitch>"
     },

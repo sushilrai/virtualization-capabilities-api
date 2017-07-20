@@ -5,6 +5,10 @@
     "hostNetworkInfo" : {
       "type" : "object",
       "$ref" : "HostNetworkInfo.jsd"
+    },
+    "hostDateTimeInfo" : {
+      "type" : "object",
+      "$ref" : "HostDateTimeInfo.jsd"
     }
   }
 }
