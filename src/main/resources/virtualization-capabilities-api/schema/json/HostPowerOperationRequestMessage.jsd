@@ -19,7 +19,8 @@
     },
     "required":[
        "messageProperties",
-       "powerOperationRequest"
+       "powerOperationRequest",
+       "credentials"
     ]
 }
 

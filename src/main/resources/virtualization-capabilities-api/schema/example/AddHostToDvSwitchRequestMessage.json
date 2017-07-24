@@ -9,5 +9,9 @@
   ],
   "dvsnames": [
     "dvs-1"
-  ]
+  ],
+  "credentials":
+  {
+    "address": "address1"
+  }
 }

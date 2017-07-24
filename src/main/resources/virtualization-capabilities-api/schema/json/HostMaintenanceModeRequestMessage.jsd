@@ -19,7 +19,8 @@
     },
     "required":[
        "messageProperties",
-       "maintenanceModeRequest"
+       "maintenanceModeRequest",
+       "credentials"
     ]
 }
 
