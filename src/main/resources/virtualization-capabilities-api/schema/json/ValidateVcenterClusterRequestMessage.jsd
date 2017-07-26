@@ -1,0 +1,21 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Validate Vcetner cluster request message.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.validateClusterRequest",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "discoverClusterResponseInfo":{
+          "$ref":"DiscoverClusterResponseInfo.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "discoverClusterResponseInfo"
+    ]
+}

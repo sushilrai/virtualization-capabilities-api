@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Validate Vcetner cluster response message.",
+  "_meta": {
+    "message": "com.dell.cpsd.vcenter.validateClusterResponse",
+    "version": "1.0"
+  },
+  "properties": {
+    "messageProperties": {
+      "$ref": "MessageProperties.jsd"
+    },
+    "clusters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failedCluster": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "messageProperties",
+    "clusterName"
+  ]
+}
