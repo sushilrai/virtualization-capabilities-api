@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName": "ListComponentsResponseMessage",
+  "description": "The response for list components clusters",
+  "_meta": {
+     "message":"com.dell.cpsd.list.vcenter.component.cluster.response",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "properties" : {
+    "messageProperties" : {
+      "type" : "object",
+      "$ref" : "MessageProperties.jsd"
+    },
+    "type" : {
+      "type" : "string"
+    },
+    "vcenterComponentDetails" : {
+      "type" : "array",
+      "items": {
+        "type" : "object",
+        "$ref" : "VCenterComponentDetails.jsd"
+      }
+    }
+  },
+  "required":[
+    "messageProperties"
+  ]
+}

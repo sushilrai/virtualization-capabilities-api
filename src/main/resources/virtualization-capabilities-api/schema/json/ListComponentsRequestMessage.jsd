@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName": "ListComponentsRequestMessage",
+  "description": "This message sends request for listing all the vcenter component clusters.",
+  "_meta": {
+     "message":"com.dell.cpsd.list.vcenter.component.cluster.request",
+     "version":"1.0"
+  },
+  "type" : "object",
+  "properties" : {
+    "messageProperties" : {
+      "type" : "object",
+      "$ref" : "MessageProperties.jsd"
+    }
+  },
+  "required":[
+     "messageProperties"
+  ]
+}

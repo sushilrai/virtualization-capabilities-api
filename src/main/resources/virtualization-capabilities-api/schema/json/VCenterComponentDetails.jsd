@@ -1,0 +1,20 @@
+{
+  "javaName" : "VCenterComponentDetails",
+  "type" : "object",
+  "properties" : {
+    "componentUuid" : {
+      "type" : "string"
+    },
+    "location" : {
+      "type" : "object",
+      "$ref" : "GeoLocation.jsd"
+    },
+    "elementType" : {
+      "type" : "string"
+    }
+  },
+  "required" : [
+      "componentUuid",
+      "elementType"
+    ]
+}
