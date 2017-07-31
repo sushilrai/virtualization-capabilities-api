@@ -15,5 +15,11 @@
             <outputDirectory>virtualization-capabilities-api/schema/json</outputDirectory>
             <directory>src/main/resources/virtualization-capabilities-api/schema/json</directory>
         </fileSet>
+         <fileSet>
+			<outputDirectory>virtualization-capabilities-api</outputDirectory>
+			<includes>
+				<include>LICENSE.md</include>
+			</includes>
+		</fileSet>
     </fileSets>
 </assembly>
