@@ -1,0 +1,23 @@
+{
+  "javaName" : "VCenterEndpointDetails",
+  "type" : "object",
+  "properties" : {
+    "endpointUuid" : {
+      "type" : "string"
+    },
+    "endpointUrl" : {
+      "type" : "string"
+    },
+    "credentialUuids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required" : [
+    "endpointUuid",
+    "endpointUrl",
+    "credentialUuids"
+  ]
+}

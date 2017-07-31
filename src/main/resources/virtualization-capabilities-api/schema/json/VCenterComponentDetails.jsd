@@ -11,10 +11,19 @@
     },
     "elementType" : {
       "type" : "string"
+    },
+    "endpoints": {
+      "type": "array",
+        "items": {
+           "$ref": "VCenterEndpointDetails.jsd",
+             "type": "object"
+        }
+      }
     }
   },
   "required" : [
       "componentUuid",
-      "elementType"
+      "elementType",
+      "endpoints"
     ]
 }
