@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "javaName":"ComponentEndpointIds",
+  "type": "object",
+  "properties": {
+    "componentUuid": {
+       "type": "string"
+    },
+    "endpointUuid": {
+       "type": "string"
+    },
+    "credentialUuid": {
+       "type": "string"
+    }
+  }
+}

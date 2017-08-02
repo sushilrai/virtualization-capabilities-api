@@ -12,6 +12,9 @@
        },
        "credentials":{
           "$ref":"DiscoveryRequestInfo.jsd"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
        }
     },
     "required":[

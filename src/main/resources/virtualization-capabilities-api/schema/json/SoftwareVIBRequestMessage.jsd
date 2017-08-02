@@ -15,6 +15,9 @@
               },
        "softwareVibInstallRequest":{
           "$ref":"SoftwareVIBRequest.jsd"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
        }
     },
     "required":[

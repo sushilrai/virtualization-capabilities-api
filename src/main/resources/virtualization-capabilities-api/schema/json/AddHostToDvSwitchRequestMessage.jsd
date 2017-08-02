@@ -28,6 +28,9 @@
           "items": {
             "type": "string"
           }
+       },
+       "componentEndpointIds": {
+           "$ref": "ComponentEndpointIds.jsd"
        }
     },
     "required":[

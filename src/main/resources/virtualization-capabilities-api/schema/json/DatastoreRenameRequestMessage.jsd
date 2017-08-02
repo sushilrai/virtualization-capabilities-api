@@ -18,6 +18,9 @@
        },
        "newDatastoreName":{
           "type":"string"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
        }
     },
     "required":[

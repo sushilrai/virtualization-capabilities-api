@@ -15,6 +15,9 @@
               },
        "softwareVIBConfigureRequest":{
           "$ref":"SoftwareVIBConfigureRequest.jsd"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
        }
     },
     "required":[

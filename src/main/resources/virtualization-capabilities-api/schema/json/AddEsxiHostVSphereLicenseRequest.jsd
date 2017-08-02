@@ -11,10 +11,13 @@
           "$ref":"MessageProperties.jsd"
        },
        "credentials":{
-                 "$ref":"DiscoveryRequestInfo.jsd"
+          "$ref":"DiscoveryRequestInfo.jsd"
        },
        "hostname": {
           "type": "string"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
        }
     },
     "required":[

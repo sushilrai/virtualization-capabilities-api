@@ -12,6 +12,9 @@
        },
        "discoverClusterResponseInfo":{
           "$ref":"DiscoverClusterResponseInfo.jsd"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
        }
     },
     "required":[

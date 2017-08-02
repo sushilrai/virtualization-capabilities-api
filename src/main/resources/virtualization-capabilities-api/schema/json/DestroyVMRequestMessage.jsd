@@ -15,7 +15,10 @@
        },
        "uuid": {
           "type": "string"
-        }
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
+       }
     },
     "required":[
        "messageProperties",

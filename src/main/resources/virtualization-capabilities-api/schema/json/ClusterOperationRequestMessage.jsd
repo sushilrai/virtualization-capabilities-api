@@ -11,10 +11,13 @@
           "$ref":"MessageProperties.jsd"
        },
        "credentials":{
-                 "$ref":"DiscoveryRequestInfo.jsd"
-              },
+          "$ref":"DiscoveryRequestInfo.jsd"
+       },
        "clusterOperationRequest":{
           "$ref":"ClusterOperationRequest.jsd"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
        }
     },
     "required":[
