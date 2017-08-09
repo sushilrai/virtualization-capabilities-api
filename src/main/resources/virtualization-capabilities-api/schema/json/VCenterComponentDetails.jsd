@@ -9,6 +9,9 @@
       "type" : "object",
       "$ref" : "GeoLocation.jsd"
     },
+    "identifier": {
+      "type": "string"  
+    },    
     "elementType" : {
       "type" : "string"
     },

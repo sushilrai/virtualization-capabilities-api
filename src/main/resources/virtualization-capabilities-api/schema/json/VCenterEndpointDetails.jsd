@@ -8,16 +8,26 @@
     "endpointUrl" : {
       "type" : "string"
     },
-    "credentialUuids": {
+    "identifier": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "credentialDetails": {
       "type": "array",
-      "items": {
-        "type": "string"
+         "items": {
+            "$ref": "VCenterCredentialDetails.jsd",
+            "type": "object"
+         }
       }
     }
   },
   "required" : [
     "endpointUuid",
     "endpointUrl",
-    "credentialUuids"
+    "identifier",
+    "type",
+    "credentialDetails"
   ]
 }
