@@ -15,9 +15,6 @@
        },
        "componentEndpointIds": {
           "$ref": "ComponentEndpointIds.jsd"
-       },
-       "endpointUrl": {
-          "type": "string"
        }
     },
     "required":[
