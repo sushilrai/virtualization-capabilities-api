@@ -19,7 +19,8 @@
     },
     "required":[
        "messageProperties",
-       "discoveryRequestInfo"
+       "credentials",
+       "componentEndpointIds"
     ]
 }
 

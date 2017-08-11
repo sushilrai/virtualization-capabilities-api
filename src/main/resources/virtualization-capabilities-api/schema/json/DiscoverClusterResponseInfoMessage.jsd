@@ -12,10 +12,17 @@
        },
        "discoverClusterResponseInfo":{
           "$ref":"DiscoverClusterResponseInfo.jsd"
-       }
+       },
+       "status": {
+          "enum": [
+              "SUCCESS",
+              "FAILED"
+          ],
+          "type": "string"
+      }
     },
     "required":[
        "messageProperties",
-       "discoverClusterResponseInfo"
+       "status"
     ]
 }
