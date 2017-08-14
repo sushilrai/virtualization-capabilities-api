@@ -23,6 +23,9 @@
        "vmId": {
           "type": "string"
        },
+       "vmName": {
+          "type": "string"
+       },
        "componentEndpointIds": {
           "$ref": "ComponentEndpointIds.jsd"
        }
@@ -31,7 +34,6 @@
        "hostname",
        "messageProperties",
        "credentials",
-       "hostPciDeviceId",
-       "vmId"
+       "hostPciDeviceId"
     ]
 }
