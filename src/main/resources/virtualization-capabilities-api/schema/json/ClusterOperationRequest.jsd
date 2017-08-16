@@ -3,16 +3,25 @@
     "definitions": {},
     "properties": {
         "hostName": {
-            "type": "string"
+           "type": "string"
         },
         "userName": {
-                    "type": "string"
+           "type": "string"
         },
         "password": {
-                    "type": "string"
+           "type": "string"
         },
         "clusterID": {
-                    "type": "string"
+           "type": "string"
+        },
+        "esxiCredentialDetails": {
+           "$ref": "ComponentEndpointIds.jsd"
+        },
+        "credentialName" : {
+           "enum": [
+              "ESXI-HOST-DEFAULT"
+           ],
+           "type": "string"
         },
         "clusterOperation": {
             "enum": [
