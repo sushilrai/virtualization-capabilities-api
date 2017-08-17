@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "properties": {
+        "gateway": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "ipAddress": {
+            "type": "string"
+        },
+        "subnetMask": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

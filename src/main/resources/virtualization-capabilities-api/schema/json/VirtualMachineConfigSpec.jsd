@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "properties": {
+        "numCPUs": {
+            "type": "integer"
+        },
+        "memoryMB": {
+            "type": "integer"
+        },
+        "memoryReservationLockedToMax": {
+            "type": "boolean"
+        },
+        "hostName": {
+            "type": "string"
+        },
+        "nicSettings":{
+            "type": "array",
+            "items": {
+                "$ref":"NicSettings.jsd"
+            }
+        }
+    },
+    "type": "object"
+}
