@@ -13,6 +13,9 @@
         },
         "subnetMask": {
             "type": "string"
+        },
+        "networkName": {
+            "type": "string"
         }
     },
     "type": "object"
