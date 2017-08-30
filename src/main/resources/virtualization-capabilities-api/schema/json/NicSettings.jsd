@@ -16,6 +16,9 @@
         },
         "networkName": {
             "type": "string"
+        },
+        "dvSwitchName": {
+            "type": "string"
         }
     },
     "type": "object"
