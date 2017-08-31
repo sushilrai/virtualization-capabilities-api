@@ -1,0 +1,22 @@
+{
+  "type" : "object",
+  "javaName" : "HostVirtualNicDvPortgroup",
+  "properties" : {
+    "device" : {
+      "type" : "string"
+    },
+    "nicType" : {
+      "type" : "string"
+    },
+    "ip" : {
+      "type" : "object",
+      "$ref" : "HostIpConfig.jsd"
+    },
+    "mtu" : {
+      "type" : "integer"
+    },
+    "dvportgroup" : {
+      "type" : "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "javaName": "AddHostVirtualNicToDvPortgroupRequestMessage",
+    "description":"Add host virtual nic to dv portgroup request message",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.addHostVirtualNicToDvPortgroup.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "credentials":{
+          "$ref":"DiscoveryRequestInfo.jsd"
+       },
+       "hostname":{
+          "type": "string"
+       },
+       "devices" : {
+          "type" : "array",
+          "items" : {
+             "type" : "object",
+             "$ref" : "HostVirtualNicDvPortgroup.jsd"
+          }
+       },
+       "componentEndpointIds": {
+           "$ref": "ComponentEndpointIds.jsd"
+       }
+    },
+    "required":[
+       "credentials",
+       "dvsnames",
+       "hostname",
+       "pNicNames"
+    ]
+}
