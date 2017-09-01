@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "properties": {
+        "vss": {
+            "type": "string"
+        },
+        "vnic":{
+            "type" : "string"
+        },
+        "pnics": {
+            "type": "array",
+            "items": {
+               "type": "string"
+            }
+        },
+        "dvs":{
+            "type":"string"
+        },
+        "dvportgroup":{
+            "type":"string"
+        }
+    },
+    "required":[
+       "vss",
+       "vnic",
+       "pnics",
+       "dvs",
+       "dvportgroup"
+    ],
+    "type": "object"
+}

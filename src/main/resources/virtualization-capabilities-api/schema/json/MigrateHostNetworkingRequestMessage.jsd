@@ -1,0 +1,32 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Migrate Host Vmkernel Adapter from VSS to VDS.",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.migrateHostNetworking.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "credentials":{
+          "$ref":"DiscoveryRequestInfo.jsd"
+       },
+       "hostName":{
+          "type":"string"
+       },
+       "migrate":{
+          "$ref":"MigrateVmkFromVssToDvs.jsd"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "credentials",
+       "hostName",
+       "migrate"
+    ]
+}
