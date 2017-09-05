@@ -17,6 +17,13 @@
        "hostname":{
           "type": "string"
        },
+       "dvsPnicConnections" :{
+          "type" : "array",
+             "items" : {
+                "type" : "object",
+                "$ref" : "DvsPnicConnection.jsd"
+             }
+       },
        "pNicNames": {
           "type": "array",
           "items": {
@@ -35,8 +42,6 @@
     },
     "required":[
        "credentials",
-       "dvsnames",
-       "hostname",
-       "pNicNames"
+       "hostname"
     ]
 }
