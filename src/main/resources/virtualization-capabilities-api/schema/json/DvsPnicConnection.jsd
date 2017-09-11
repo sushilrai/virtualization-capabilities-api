@@ -1,0 +1,15 @@
+{
+  "type" : "object",
+  "javaName" : "DvsPnicConnection",
+  "properties" : {
+    "dvsName" : {
+      "type" : "string"
+    },
+    "pNics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
