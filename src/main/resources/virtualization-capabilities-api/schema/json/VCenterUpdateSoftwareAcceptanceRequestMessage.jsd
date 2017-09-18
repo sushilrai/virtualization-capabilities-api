@@ -1,0 +1,38 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "description":"Request to update software acceptance level",
+    "_meta":{
+       "message":"com.dell.cpsd.vcenter.update.software.acceptance.request",
+       "version":"1.0"
+    },
+    "properties":{
+       "messageProperties":{
+          "$ref":"MessageProperties.jsd"
+       },
+       "hostname":{
+          "type" : "string"
+       },
+       "endpointUrl": {
+          "type": "string"
+       },
+       "componentEndpointIds": {
+          "$ref": "ComponentEndpointIds.jsd"
+       },
+       "softwareAcceptance": {
+         "enum" : [
+            "community",
+            "partner",
+            "vmware_accepted",
+            "vmware_certified"
+         ],
+         "type" : "string"
+       }
+    },
+    "required":[
+       "messageProperties",
+       "hostname",
+       "componentEndpointIds",
+       "softwareAcceptance"
+    ]
+}

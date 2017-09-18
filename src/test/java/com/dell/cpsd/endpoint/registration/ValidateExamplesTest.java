@@ -135,4 +135,18 @@ public class ValidateExamplesTest
         errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
         assertNull(errors, errors);
     }
+
+    @Test
+    public void updateSoftwareAcceptanceValidation() throws Exception
+    {
+        String jsdName = "VCenterUpdateSoftwareAcceptanceRequestMessage";
+        String jsonName = "VCenterUpdateSoftwareAcceptanceRequestMessage";
+        String errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
+        assertNull(errors, errors);
+
+        jsdName = "VCenterUpdateSoftwareAcceptanceResponseMessage";
+        jsonName = "VCenterUpdateSoftwareAcceptanceResponseMessage";
+        errors = validateSchema(SCHEMA_DIR + jsdName + ".jsd", EXAMPLE_DIR + jsonName + ".json", SCHEMA_DIR);
+        assertNull(errors, errors);
+    }
 }
