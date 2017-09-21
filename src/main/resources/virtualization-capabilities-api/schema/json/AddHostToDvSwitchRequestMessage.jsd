@@ -17,6 +17,12 @@
        "hostname":{
           "type": "string"
        },
+       "vlanId":{
+          "type": "string"
+       },
+       "esxiManagementIPAddress":{
+          "type": "string"
+       },
        "dvsPnicConnections" :{
           "type" : "array",
              "items" : {
